@@ -1,0 +1,1496 @@
+{
+  "repo_source": "lightweight-charts-python",
+  "repo_fingerprint": "37247e1ac093917ffc64febf974ba20b707acaeeab879e1137bcf32c2f3fbba7",
+  "commit_sha": "052d778beda66f569175cbe6774aba5d3e3b1dea",
+  "generator_version": "1.0.0",
+  "generation_timestamp": "2025-11-15T20:40:03.915955",
+  "file_count": 148,
+  "folder_count": 31,
+  "total_bytes": 12251067,
+  "files": [
+    {
+      "path": "README.md",
+      "size": 7626,
+      "mtime": 1763239120.891711,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "rollup.config.js",
+      "size": 417,
+      "mtime": 1763239120.9997125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "package.json",
+      "size": 491,
+      "mtime": 1763239120.9997125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "index.html",
+      "size": 164,
+      "mtime": 1763239120.9937124,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "tsconfig.json",
+      "size": 506,
+      "mtime": 1763239121.0157127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "setup.py",
+      "size": 680,
+      "mtime": 1763239120.9997125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "package-lock.json",
+      "size": 17414,
+      "mtime": 1763239120.9997125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "cover.png",
+      "size": 222028,
+      "mtime": 1763239120.893711,
+      "type": "binary",
+      "is_binary": true
+    },
+    {
+      "path": ".readthedocs.yaml",
+      "size": 171,
+      "mtime": 1763239120.891711,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "build.sh",
+      "size": 745,
+      "mtime": 1763239120.891711,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "LICENSE",
+      "size": 1066,
+      "mtime": 1763239120.891711,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": ".gitignore",
+      "size": 158,
+      "mtime": 1763239120.891711,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "test/util.py",
+      "size": 310,
+      "mtime": 1763239121.0157127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "test/test_table.py",
+      "size": 168,
+      "mtime": 1763239121.0147128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "test/test_toolbox.py",
+      "size": 1258,
+      "mtime": 1763239121.0147128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "test/test_topbar.py",
+      "size": 822,
+      "mtime": 1763239121.0157127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "test/test_chart.py",
+      "size": 768,
+      "mtime": 1763239121.0147128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "test/run_tests.py",
+      "size": 519,
+      "mtime": 1763239121.0147128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "test/test_returns.py",
+      "size": 1311,
+      "mtime": 1763239121.0147128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "test/drawings.json",
+      "size": 1057,
+      "mtime": 1763239121.0137126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/table.py",
+      "size": 5151,
+      "mtime": 1763239120.9987125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/toolbox.py",
+      "size": 1521,
+      "mtime": 1763239120.9987125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/topbar.py",
+      "size": 4660,
+      "mtime": 1763239120.9987125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/drawings.py",
+      "size": 8430,
+      "mtime": 1763239120.9957125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/util.py",
+      "size": 6104,
+      "mtime": 1763239120.9987125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/__init__.py",
+      "size": 137,
+      "mtime": 1763239120.9947124,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/widgets.py",
+      "size": 7762,
+      "mtime": 1763239120.9987125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/chart.py",
+      "size": 7191,
+      "mtime": 1763239120.9957125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/abstract.py",
+      "size": 37707,
+      "mtime": 1763239120.9947124,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/polygon.py",
+      "size": 18532,
+      "mtime": 1763239120.9977126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/js/index.html",
+      "size": 637,
+      "mtime": 1763239120.9967124,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/js/lightweight-charts.js",
+      "size": 160942,
+      "mtime": 1763239120.9977126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/js/bundle.js",
+      "size": 48653,
+      "mtime": 1763239120.9967124,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "lightweight_charts/js/styles.css",
+      "size": 4587,
+      "mtime": 1763239120.9977126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/plugin-base.ts",
+      "size": 1429,
+      "mtime": 1763239121.0107126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/sample-data.ts",
+      "size": 1342,
+      "mtime": 1763239121.0107126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/index.ts",
+      "size": 239,
+      "mtime": 1763239121.0107126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "size": 38,
+      "mtime": 1763239121.0137126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/vite.config.js",
+      "size": 175,
+      "mtime": 1763239121.0137126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/drawing/pane-renderer.ts",
+      "size": 2571,
+      "mtime": 1763239121.0027125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/drawing/drawing-tool.ts",
+      "size": 3777,
+      "mtime": 1763239121.0027125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/drawing/pane-view.ts",
+      "size": 1559,
+      "mtime": 1763239121.0037127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/drawing/drawing.ts",
+      "size": 5604,
+      "mtime": 1763239121.0027125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/drawing/options.ts",
+      "size": 277,
+      "mtime": 1763239121.0027125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/drawing/data-source.ts",
+      "size": 225,
+      "mtime": 1763239121.0017126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/drawing/two-point-drawing.ts",
+      "size": 904,
+      "mtime": 1763239121.0037127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/vertical-line/pane-renderer.ts",
+      "size": 1102,
+      "mtime": 1763239121.0127127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/vertical-line/pane-view.ts",
+      "size": 901,
+      "mtime": 1763239121.0127127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/vertical-line/vertical-line.ts",
+      "size": 3594,
+      "mtime": 1763239121.0137126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/vertical-line/axis-view.ts",
+      "size": 1000,
+      "mtime": 1763239121.0127127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/trend-line/trend-line.ts",
+      "size": 3747,
+      "mtime": 1763239121.0117128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/trend-line/pane-renderer.ts",
+      "size": 1591,
+      "mtime": 1763239121.0117128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/trend-line/pane-view.ts",
+      "size": 619,
+      "mtime": 1763239121.0117128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/helpers/canvas-rendering.ts",
+      "size": 552,
+      "mtime": 1763239121.0077126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/helpers/time.ts",
+      "size": 1226,
+      "mtime": 1763239121.0087128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/helpers/assertions.ts",
+      "size": 924,
+      "mtime": 1763239121.0067127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/helpers/dimensions/full-width.ts",
+      "size": 1103,
+      "mtime": 1763239121.0087128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/helpers/dimensions/common.ts",
+      "size": 188,
+      "mtime": 1763239121.0077126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/helpers/dimensions/crosshair-width.ts",
+      "size": 690,
+      "mtime": 1763239121.0087128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/helpers/dimensions/positions.ts",
+      "size": 1871,
+      "mtime": 1763239121.0087128,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/box/pane-renderer.ts",
+      "size": 1612,
+      "mtime": 1763239121.0007126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/box/pane-view.ts",
+      "size": 474,
+      "mtime": 1763239121.0007126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/box/box.ts",
+      "size": 5494,
+      "mtime": 1763239121.0007126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/context-menu/style-picker.ts",
+      "size": 1881,
+      "mtime": 1763239121.0017126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/context-menu/color-picker.ts",
+      "size": 5372,
+      "mtime": 1763239121.0017126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/context-menu/context-menu.ts",
+      "size": 5489,
+      "mtime": 1763239121.0017126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/general/table.ts",
+      "size": 7279,
+      "mtime": 1763239121.0057125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/general/handler.ts",
+      "size": 12902,
+      "mtime": 1763239121.0047126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/general/index.ts",
+      "size": 249,
+      "mtime": 1763239121.0047126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/general/styles.css",
+      "size": 4587,
+      "mtime": 1763239121.0057125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/general/toolbox.ts",
+      "size": 7772,
+      "mtime": 1763239121.0067127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/general/topbar.ts",
+      "size": 6466,
+      "mtime": 1763239121.0067127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/general/global-params.ts",
+      "size": 1707,
+      "mtime": 1763239121.0047126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/general/menu.ts",
+      "size": 2005,
+      "mtime": 1763239121.0057125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/general/legend.ts",
+      "size": 9492,
+      "mtime": 1763239121.0057125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/horizontal-line/pane-renderer.ts",
+      "size": 1213,
+      "mtime": 1763239121.0097127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/horizontal-line/pane-view.ts",
+      "size": 977,
+      "mtime": 1763239121.0107126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/horizontal-line/ray-line.ts",
+      "size": 1158,
+      "mtime": 1763239121.0107126,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/horizontal-line/horizontal-line.ts",
+      "size": 3330,
+      "mtime": 1763239121.0097127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/horizontal-line/axis-view.ts",
+      "size": 1140,
+      "mtime": 1763239121.0097127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/example/index.html",
+      "size": 650,
+      "mtime": 1763239121.0037127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "src/example/example.ts",
+      "size": 287,
+      "mtime": 1763239121.0037127,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/make.bat",
+      "size": 804,
+      "mtime": 1763239120.894711,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/Makefile",
+      "size": 638,
+      "mtime": 1763239120.894711,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/requirements.txt",
+      "size": 54,
+      "mtime": 1763239120.894711,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/polygonchart.png",
+      "size": 127232,
+      "mtime": 1763239120.9097114,
+      "type": "binary",
+      "is_binary": true
+    },
+    {
+      "path": "docs/source/polygon.md",
+      "size": 5658,
+      "mtime": 1763239120.9087112,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/index.md",
+      "size": 442,
+      "mtime": 1763239120.9087112,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/conf.py",
+      "size": 11527,
+      "mtime": 1763239120.9067113,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/reference/charts.md",
+      "size": 3784,
+      "mtime": 1763239120.9107113,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/reference/line.md",
+      "size": 1168,
+      "mtime": 1763239120.9127114,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/reference/horizontal_line.md",
+      "size": 554,
+      "mtime": 1763239120.9117112,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/reference/index.md",
+      "size": 342,
+      "mtime": 1763239120.9117112,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/reference/tables.md",
+      "size": 3071,
+      "mtime": 1763239120.9127114,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/reference/events.md",
+      "size": 841,
+      "mtime": 1763239120.9107113,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/reference/topbar.md",
+      "size": 1902,
+      "mtime": 1763239120.9267116,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/reference/abstract_chart.md",
+      "size": 10398,
+      "mtime": 1763239120.9097114,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/reference/typing.md",
+      "size": 934,
+      "mtime": 1763239120.9267116,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/reference/histogram.md",
+      "size": 1391,
+      "mtime": 1763239120.9107113,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/reference/toolbox.md",
+      "size": 1262,
+      "mtime": 1763239120.9267116,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/_templates/landing.html",
+      "size": 13464,
+      "mtime": 1763239120.9057112,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/tutorials/getting_started.md",
+      "size": 2140,
+      "mtime": 1763239120.9277115,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/tutorials/events.md",
+      "size": 4055,
+      "mtime": 1763239120.9277115,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/_ext/styles.py",
+      "size": 249,
+      "mtime": 1763239120.8957112,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/_static/splash.css",
+      "size": 2286,
+      "mtime": 1763239120.9047112,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/_static/funcs.js",
+      "size": 20159,
+      "mtime": 1763239120.8997111,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/_static/toolbox.js",
+      "size": 34779,
+      "mtime": 1763239120.9057112,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/_static/pkg.js",
+      "size": 220060,
+      "mtime": 1763239120.9047112,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/_static/ohlcv.json",
+      "size": 804800,
+      "mtime": 1763239120.9037113,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/_static/fonts/MaisonNeue-Demi.otf",
+      "size": 129316,
+      "mtime": 1763239120.897711,
+      "type": "binary",
+      "is_binary": true
+    },
+    {
+      "path": "docs/source/_static/fonts/MaisonNeue-MediumItalic.otf",
+      "size": 129728,
+      "mtime": 1763239120.8997111,
+      "type": "binary",
+      "is_binary": true
+    },
+    {
+      "path": "docs/source/_static/fonts/MaisonNeue-Medium.otf",
+      "size": 128648,
+      "mtime": 1763239120.8987112,
+      "type": "binary",
+      "is_binary": true
+    },
+    {
+      "path": "docs/source/examples/gui_examples.md",
+      "size": 1560,
+      "mtime": 1763239120.9067113,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/examples/subchart.md",
+      "size": 2304,
+      "mtime": 1763239120.9077113,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/examples/events.md",
+      "size": 1702,
+      "mtime": 1763239120.9067113,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/examples/yfinance.md",
+      "size": 1159,
+      "mtime": 1763239120.9087112,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/examples/table.md",
+      "size": 1105,
+      "mtime": 1763239120.9077113,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/examples/toolbox.md",
+      "size": 1881,
+      "mtime": 1763239120.9077113,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/source/examples/screenshot.md",
+      "size": 624,
+      "mtime": 1763239120.9077113,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "docs/.generated/.progress.log",
+      "size": 34,
+      "mtime": 1763239200.2018037,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/1_setting_data/setting_data.png",
+      "size": 568283,
+      "mtime": 1763239120.9337115,
+      "type": "binary",
+      "is_binary": true
+    },
+    {
+      "path": "examples/1_setting_data/ohlcv.csv",
+      "size": 166607,
+      "mtime": 1763239120.9297116,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/1_setting_data/setting_data.py",
+      "size": 243,
+      "mtime": 1763239120.9337115,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/5_styling/styling.py",
+      "size": 789,
+      "mtime": 1763239120.9817123,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/5_styling/ohlcv.csv",
+      "size": 166607,
+      "mtime": 1763239120.9787123,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/5_styling/styling.png",
+      "size": 521901,
+      "mtime": 1763239120.9817123,
+      "type": "binary",
+      "is_binary": true
+    },
+    {
+      "path": "examples/3_tick_data/ohlc.csv",
+      "size": 29397,
+      "mtime": 1763239120.968712,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/3_tick_data/tick_data.py",
+      "size": 359,
+      "mtime": 1763239120.971712,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/3_tick_data/ticks.csv",
+      "size": 109544,
+      "mtime": 1763239120.9727123,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/3_tick_data/tick_data.gif",
+      "size": 357180,
+      "mtime": 1763239120.9707122,
+      "type": "binary",
+      "is_binary": true
+    },
+    {
+      "path": "examples/4_line_indicators/line_indicators.png",
+      "size": 626243,
+      "mtime": 1763239120.9767122,
+      "type": "binary",
+      "is_binary": true
+    },
+    {
+      "path": "examples/4_line_indicators/ohlcv.csv",
+      "size": 166607,
+      "mtime": 1763239120.9777122,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/4_line_indicators/line_indicators.py",
+      "size": 505,
+      "mtime": 1763239120.9777122,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/2_live_data/next_ohlcv.csv",
+      "size": 84876,
+      "mtime": 1763239120.966712,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/2_live_data/live_data.py",
+      "size": 517,
+      "mtime": 1763239120.965712,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/2_live_data/ohlcv.csv",
+      "size": 80654,
+      "mtime": 1763239120.9677122,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/2_live_data/live_data.gif",
+      "size": 5201715,
+      "mtime": 1763239120.9647121,
+      "type": "binary",
+      "is_binary": true
+    },
+    {
+      "path": "examples/6_callbacks/callbacks.py",
+      "size": 1329,
+      "mtime": 1763239120.9937124,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/6_callbacks/callbacks.gif",
+      "size": 486841,
+      "mtime": 1763239120.9937124,
+      "type": "binary",
+      "is_binary": true
+    },
+    {
+      "path": "examples/6_callbacks/bar_data/TSLA_1min.csv",
+      "size": 145328,
+      "mtime": 1763239120.9887123,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/6_callbacks/bar_data/AAPL_5min.csv",
+      "size": 124228,
+      "mtime": 1763239120.9847124,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/6_callbacks/bar_data/TSLA_30min.csv",
+      "size": 169662,
+      "mtime": 1763239120.9897125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/6_callbacks/bar_data/AAPL_30min.csv",
+      "size": 168965,
+      "mtime": 1763239120.9847124,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/6_callbacks/bar_data/AAPL_1min.csv",
+      "size": 153199,
+      "mtime": 1763239120.9837122,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/6_callbacks/bar_data/GOOGL_1min.csv",
+      "size": 143015,
+      "mtime": 1763239120.9857123,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/6_callbacks/bar_data/TSLA_5min.csv",
+      "size": 127012,
+      "mtime": 1763239120.9907124,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/6_callbacks/bar_data/GOOGL_30min.csv",
+      "size": 165013,
+      "mtime": 1763239120.9867125,
+      "type": "text",
+      "is_binary": false
+    },
+    {
+      "path": "examples/6_callbacks/bar_data/GOOGL_5min.csv",
+      "size": 123916,
+      "mtime": 1763239120.9877124,
+      "type": "text",
+      "is_binary": false
+    }
+  ],
+  "folders": [
+    "docs",
+    "docs/.generated",
+    "docs/source",
+    "docs/source/_ext",
+    "docs/source/_static",
+    "docs/source/_static/fonts",
+    "docs/source/_templates",
+    "docs/source/examples",
+    "docs/source/reference",
+    "docs/source/tutorials",
+    "examples/1_setting_data",
+    "examples/2_live_data",
+    "examples/3_tick_data",
+    "examples/4_line_indicators",
+    "examples/5_styling",
+    "examples/6_callbacks",
+    "examples/6_callbacks/bar_data",
+    "lightweight_charts",
+    "lightweight_charts/js",
+    "src",
+    "src/box",
+    "src/context-menu",
+    "src/drawing",
+    "src/example",
+    "src/general",
+    "src/helpers",
+    "src/helpers/dimensions",
+    "src/horizontal-line",
+    "src/trend-line",
+    "src/vertical-line",
+    "test"
+  ],
+  "docs_created": 384,
+  "bytes_written": 4241404,
+  "checksums": {
+    "tsconfig.json_kw.md": "bc60f67d572e69852782c02463831856c3e77ceae50bdb5c7067c074a98dc358",
+    "package.json_kw.md": "986c5fa855b390cf8e3325f5659defb00ae4276c9b1fc9e003dc9a5834c2bda1",
+    "keywords.md": "0f1f3c4a0bb58927f76e1c3fe8053e723862a416bea5c135a7f1291c6b273e92",
+    ".readthedocs.yaml_docs.md": "001e390f368d06cb49ecfa2b8fec4a5e850a9e5c235eac9b4ddecdcb77416593",
+    "LICENSE_kw.md": "13f68b70a97308515c84cb8d8265b1d087a4a734180c7e24f48708e1115f71f4",
+    "index.html_docs.md": "62fff82c8a427ba58efdf4f6292dc109a33911383378d3d4fbd310c170b23d65",
+    "README.md_docs.md": "a40f2a959f63c44a90e26390ccab4e8e9dfff8160c3aa4900c7c3bd7c5275c7d",
+    "doc.md": "a55cec447c9a5161c39ab849d1cce764f71c2055cd101dbd202fd25ae0609ea1",
+    "index.md": "27aa6a5c89ecb1e741a6e40544415c0a6b5bac2bdab3b70190d71545651e455e",
+    ".gitignore_docs.md": "5a90b07430692e63998fee577cc5e6f174c8f9914b83c61f89c8e761c528a49d",
+    "setup.py_kw.md": "bf5aa812ef179c34423b2d747d78bf81528489ef96e635fb406b58e4ea51fd45",
+    "index.html_kw.md": "78ee48d76c6f97910e208721306660b1a4dc8a9ac23a790ebd4eba41c98a8e31",
+    "build.sh_kw.md": "8bdd0aa167523ad3850482d414c42ea4a45d34d5f99c6d804c3e443ccb47e1b1",
+    ".readthedocs.yaml_kw.md": "9a627ae7bb97f8a213dad06cea3e37f3ff5c311db29a183a234b316ecf6b52fb",
+    "rollup.config.js_kw.md": "5a779335820fa76e13c87ca3676f27c1589eb2542fcfafa78e4c14cb7c9f33b7",
+    "README.md_kw.md": "ac443b6e2730f5df0faeb49cd559c6df50d6d10048dc56cd1fe34bb29669120f",
+    "setup.py_docs.md": "f45f54d055a8466a8d35d113226e275793c53c9be5524a1ce2df46ae372ac2ed",
+    "sub.md": "35d0a7faefe186b8a3a395cbacf32e84c0427a5fd3fdc3dd73b2f8652ff8150d",
+    "rollup.config.js_docs.md": "dad32adddc89abb2054500874d217b9993248e739927b8fcae6a3bd41c0eb2ca",
+    "tsconfig.json_docs.md": "525ec960b693aea1f6522a094d37d54241d21be85565bb1ba8bd7d0045e74594",
+    "package.json_docs.md": "368d09f3037a0122b6018c29eb185f4473e51bcc524e60701373d8eddbfc657d",
+    "manifest.json": "316b81705b85cd4b2a55daf65d23846d2bda0f5dc875fd4a81492f96631feca8",
+    "package-lock.json_kw.md": "204e45de9786d4770643fad1b18ffc26b1afadc4de30929743266c294cd8e0a0",
+    "package-lock.json_docs.md": "562e91593229d01ba3a3a800c9ea6559f291180fbe1a3d58eab9308a5dce01a8",
+    "build.sh_docs.md": "7768138f2e72494b010df66d5ca694d3b744f5cf871fa4eecd1013f19cf78883",
+    "LICENSE_docs.md": "a6884e0041cc0fd2b3c02e8e5ff2de87eac45fe4d89417781a126bd68e5a77d8",
+    "comprehensive_book.md": "bca3985648ce9b052244fd32e0e607161b2d7f7809b5382e9cbd89731e04f552",
+    ".gitignore_kw.md": "b7406c87bd6a26831df33d17d7aa4734cd4be9e607bf7f2e9395ede6cacef8e1",
+    "source/polygon.md": "cd8480ef0c637698e66e1490b80a7b25712f1c9e40a90039c0592e54ad31bc4b",
+    "source/index.md": "ccbecae65ca01888e7f2ee5f26d80a5f866ef92a60771be974f14f6bfd70f09e",
+    "source/reference/charts.md": "8cf2cb65cbb78edb5bc2e218871c4bc449b00fa07969beb626833cc7f06fd804",
+    "source/reference/line.md": "6e651ef091c567a0352c0b98dd7ea1cfeb08f5d274635f93c7a387c4c76f4668",
+    "source/reference/horizontal_line.md": "15e4c2df6ca397604034414108b74789d68a94df3f595d7edad6cb96acec4692",
+    "source/reference/index.md": "ba51f90109e471fa080ddc88313a4a933e55e1b13d8ae94643fb8fd926096c78",
+    "source/reference/tables.md": "4c2fd5667c780421f168fd48bfdb70eb69012b7ae16ed1a0539343464a836cc1",
+    "source/reference/events.md": "eace65e4606fc334bd89748fa80626b39d7fd0f1343e0f51488d30727ddc809e",
+    "source/reference/topbar.md": "477bd84fe0f5ab359b79f1c4ec85335d88ac7097b101ec4f0b0706fbc95ce156",
+    "source/reference/abstract_chart.md": "e8e58ebf51c3484ed076b2a363917e21bd697f197b8085883267fb992b63fe2d",
+    "source/reference/typing.md": "6cdd1e6b81714f001d3c159c1ec8bd3761ef26af8c3790b5bf68ddcab617e4bd",
+    "source/reference/histogram.md": "b2651c9290a97dc36bef72fc46d5daf8fffe108440ee1a4a05e50547e55b7bf1",
+    "source/reference/toolbox.md": "f07216e7bd43b6282a81630607c5e49d2caf4607ed605e4d3dc879825f496320",
+    "source/tutorials/getting_started.md": "b522cc842d653c514c353ccd042b16603667e4fda00ef846685c677cdb44ce40",
+    "source/tutorials/events.md": "9eb736e65362df6bfe0dbadde808ee6cdd5fb7c1678bd9b9ef24c762ba7b7512",
+    "source/_static/ohlcv.json": "6be7559e1b665c254df5cb45980060a801498b24290c5c72f9171c5e4ddc2bfb",
+    "source/examples/gui_examples.md": "b1a45623b979c8da75929d9e491f000fd7435a4a207cff926d15aed89c4fa397",
+    "source/examples/subchart.md": "6741b74d18e6bbec6fd353927f651b7ee91d06da44d19840ef192f33295c7299",
+    "source/examples/events.md": "6dc371b4e530289dad126b6a2fe65969a6ac6c804efbcd7c944a1f425ce2bf7e",
+    "source/examples/yfinance.md": "4e2b1d2b95c4dfee5892d923c5aedbb981449ecb4a7d0ba67a02de8de8053899",
+    "source/examples/table.md": "8bbe47a243f6f717e8c97b7c32fda9b200456069cf8b8f003d611e8eb8e85f36",
+    "source/examples/toolbox.md": "ac53014d3132d90b606a61604bdaaeb0bf036e710976d6e8da119753ae67f06f",
+    "source/examples/screenshot.md": "9456f7073979b14bf10366eb5f6111a69b837ee33048ab20cdab8d76f123c63d",
+    "test/drawings.json_docs.md": "a4b31429466d01c96ca978682dcd111b1e25b9b049468ea72956835d6464d5f0",
+    "test/drawings.json_kw.md": "33c690c71259732e16031cfff6f8c321fcefc077df0a61711fd3633d275885c0",
+    "test/test_returns.py_kw.md": "c91b2bf0718222098b6bc4cce5d4002b28943425f032459ebb2bacbf59982e22",
+    "test/test_table.py_kw.md": "53bd6492d5a29377aa3e6514d850c1a75280eb82213a316ed440a83f26d2e88d",
+    "test/run_tests.py_docs.md": "ffbc52390679a015e43168395c9f03a94c5bdadfdaa479dc73fb7ed3aebcf918",
+    "test/test_toolbox.py_kw.md": "9fc1c60faaa93ffc7cbfa3a731f4c301c634d398fea8fb5091dac9e5e0c1e695",
+    "test/test_topbar.py_docs.md": "b6f2490e530c909b0726ec41757b8c41b1ff22780b140cba9d13fbdac3dd770b",
+    "test/run_tests.py_kw.md": "5bac42a67e8d260178daaf5ea747e689e86ebf17a4c4d46f0d5766570e2edb5e",
+    "test/doc.md": "2090a188367b92e4d7001edc406a860ae16743a72670d3c3cc710f3968fc7fd0",
+    "test/index.md": "833b28f51a229f78a3c739eca4145c9d6a5360ec773a0cbe370be761c8ad45f3",
+    "test/util.py_kw.md": "5807a93d784f672fbf87316077ce9c355cdbd563a74084ed334149500240d657",
+    "test/test_returns.py_docs.md": "079f6e7f777fd3c18c34e5b2ee27376e67d87f8316abd6ed256a3b0e30159672",
+    "test/test_chart.py_kw.md": "0427d7db7a9e14bc602d73509714b98df85616de0558afdc0957125b6d8aede3",
+    "test/test_toolbox.py_docs.md": "15002987c8f687d8d4baf3f60f831eb1702664dc5184f555f4d5548447a10336",
+    "test/test_chart.py_docs.md": "740add337fa0c626f52b207a095ecc502b1cc62cd4396732cbef4bde8465febd",
+    "test/sub.md": "94cc0759599b5ba849da780954219e9f5d7ca2d9faf4bef46208c878429f92fd",
+    "test/test_table.py_docs.md": "ca0e9be3f13a38e0870324447e1c11a1c064341067f33a199b6268c01a3da6fc",
+    "test/test_topbar.py_kw.md": "25a313d4d4d1319274d0fcb15031225f8431f18e91cd45b21607ea8c5d1530ae",
+    "test/util.py_docs.md": "d695a795d0ac9e67d08c8b1a2b48cde22d867623dbb2086dd9f7726301832483",
+    "lightweight_charts/toolbox.py_kw.md": "d381e22dbb3bdaf3994fd6e0102ec2150371bce4659c4dc625d46897451c1969",
+    "lightweight_charts/__init__.py_kw.md": "3cc9c82330bf06dc57b942ccaf4e4a528c4398cb38dee58685d7159be0d12a4d",
+    "lightweight_charts/abstract.py_docs.md": "61cc2f794f20c16bd64df01c322aa9b0e10df01781a0756bb9f2ce3b2aec32fc",
+    "lightweight_charts/doc.md": "67bc16be28cf3e63b269efe907f629225fd3f091c2a29ca61b9aadfed11e3d08",
+    "lightweight_charts/widgets.py_kw.md": "5630116041e652a7bca7ee8ee22e0d2db48d7c4ac043c128edd3faf87ef7142c",
+    "lightweight_charts/polygon.py_kw.md": "12690a7dee293dd1151513773430867009913d699a9eb50d5621e557a88f4113",
+    "lightweight_charts/index.md": "23a0768e43a34780e3f4054acd773511ff60ab35104f07524c99880a5d5f6d1f",
+    "lightweight_charts/util.py_kw.md": "be22c43655ce3f221e53ae556b35cc73a4533b554bf8594f11bbd715928758e6",
+    "lightweight_charts/chart.py_docs.md": "0a772969157d079027732f27c6e03fc5e4e2c8234d283a2e7f964346808c70f7",
+    "lightweight_charts/drawings.py_kw.md": "347250988f93140f437574ac888773e69303edf46a9d54609b9898342ddfe90d",
+    "lightweight_charts/chart.py_kw.md": "8f0d5186f12df3d6bd584274d7539e8f5d3f9b225581a98f294d9f7266b50e43",
+    "lightweight_charts/table.py_kw.md": "b691af33916e84c7891f7cbfb645064e9bc1ad2c3ee6005dfd722794a93f3d2c",
+    "lightweight_charts/__init__.py_docs.md": "1960bb7e1a84ad27ffb5f37193bf2c961095591149d6302f5c1f5bd6eec843c1",
+    "lightweight_charts/drawings.py_docs.md": "81c5cd37847871ae3ef884e1646c1c54d23c2de2c4521715d2c8083e62ab27e7",
+    "lightweight_charts/topbar.py_kw.md": "c4d0a5eb19d9fd816b3f72b6242751a9f60be9f0744f51cd4925e41e4fa21674",
+    "lightweight_charts/polygon.py_docs.md": "6234c875726aaf71433f6cda5c998d05ccb48418cd0e32c4263358f338d9856f",
+    "lightweight_charts/toolbox.py_docs.md": "067f4f661857c827e308d7bc1a9b0c8380c823fa385476185504b5ac0c118f28",
+    "lightweight_charts/table.py_docs.md": "dbe7729b0c9d30ec6420a9862ec472aca54d7827ebe1ec2357f040865a92be96",
+    "lightweight_charts/sub.md": "4f30f192c2ffc9d02f2f584ead3a262363c72a1c124f42c40b65f9fc1df27340",
+    "lightweight_charts/abstract.py_kw.md": "03e7a65ec704a4a8b60c05c0dd2aa82d61703423031198ce0b4efb1bc2273421",
+    "lightweight_charts/widgets.py_docs.md": "a270ed7894c493fbaeccc97032fdd34efd89dc0ab2e18ff3677fdc0d4943792f",
+    "lightweight_charts/topbar.py_docs.md": "c0c380ed0cc216afc9afc17d42059b91f4030e5525b0ca574edade99f55b233b",
+    "lightweight_charts/util.py_docs.md": "380df313b008c64f3dbb228202d29e7792c4ed0195970b7f11d11d763c58e836",
+    "lightweight_charts/js/index.html_docs.md": "1f4728190d01e11c04306f5151b99a1e500dd436e8f6096e1a12968dab43281c",
+    "lightweight_charts/js/bundle.js_kw.md": "3596cd1d9c2d23c9d3ac88644c38045a70a8b9f0f3adfdb100ba1f576ac08307",
+    "lightweight_charts/js/doc.md": "3a6035df6605b394f452c39f9fb768ba2e3d0da332cff40d77b33dc2acb36ba3",
+    "lightweight_charts/js/index.md": "49eba76521fae62dccdf604305d0c106a501412400a9f79d9e51041923be3726",
+    "lightweight_charts/js/styles.css_kw.md": "7148c279bf23cc3af52ff9af614861463ad89e9298397ee3cb663af1471c3810",
+    "lightweight_charts/js/styles.css_docs.md": "b93a852baeeb7b7d55bfc4d791b59561e5dc784ed1cadfb6a0d1aee2bdf74bed",
+    "lightweight_charts/js/index.html_kw.md": "50d430478146074fff41507b29a93464d4d17356b180c8d378624791e498397f",
+    "lightweight_charts/js/lightweight-charts.js_kw.md": "707171a5dbfbe893ad20f0f697147d12f053d2ef96624f86603a9c1f31c5bb46",
+    "lightweight_charts/js/bundle.js_docs.md": "74339dbfc4e805b642270e73ff2bdf854eed58c01cc586a5a43148c0f70f2acc",
+    "lightweight_charts/js/sub.md": "7e914865a4e89bfe3d48d201e7ab09538f674a78fc64f75e0dc75cf90079eb1a",
+    "lightweight_charts/js/lightweight-charts.js_docs.md": "d4aab4481354a3cd9f298c39680ccffbd59c5029088d7a3eb94965fd2c7a00d3",
+    "src/vite.config.js_kw.md": "7383222f957d14c0fb5a27d25920824b9bb6d506da61fa28182248f8c6c87bcd",
+    "src/vite-env.d.ts_docs.md": "be3083d578148f31b9dae1eb744a91a29a7decc5ce0c7c38d9982caae7c3023e",
+    "src/index.ts_docs.md": "17d2ea963b0bb7f10351311c1391e48fa949a4349b64d8e1a320e471fde61a4d",
+    "src/plugin-base.ts_docs.md": "9610cc839bcf184ce0ed1da791b4958813319d04fccacc074515e321c73b9b53",
+    "src/plugin-base.ts_kw.md": "8f389c75d1ebacc38d62fc7b251e96820cafe90e2be473cdb7a754fa91b146c9",
+    "src/doc.md": "639b5dde6c55954cb1b6754aa7d027e89cf8050f9dac9602f8659a9b114bad5e",
+    "src/index.md": "3911d9ea2091d5911f67a1eecd0b407ca0d407511c717bad2bb27110bd243433",
+    "src/sample-data.ts_kw.md": "818b980d72610a02783be823ebb8e879bfa8eaaaba8107ccfbb479b7fccf30f9",
+    "src/vite.config.js_docs.md": "c879b679b069a802857790b57efa816a87ce4b3998720d4c3e5735200b93f97b",
+    "src/sub.md": "25fe70a39764be9bf3f7e685576625dd3f851072f5c5c4f350aa2ad9846f8b74",
+    "src/sample-data.ts_docs.md": "54cef9a49a0912f97fc6266cfaa5623098498f9effda0aabe34ac46021ef3099",
+    "src/index.ts_kw.md": "232a5f44ab7342ea155bd3931edfb025d74254ebf3170763296cd5fb82c7d2ec",
+    "src/vite-env.d.ts_kw.md": "603fbdc3b16c1bf6270099a34311d7988f81df76c7199061abc84ab422116f36",
+    "src/drawing/pane-renderer.ts_docs.md": "76f887c7a661784e8c25dbf8d9667697df52c38e07ddbf96996a6dd1843b03a5",
+    "src/drawing/drawing.ts_docs.md": "28126b3de550f34ee6d7a4a17067c2006617c27374d094459a683e236dc03ddf",
+    "src/drawing/two-point-drawing.ts_kw.md": "7a58cf3967fee3d550749f38aaef637c9ca94ae8ef8b9797ebf7e9363e8e4f4c",
+    "src/drawing/data-source.ts_kw.md": "c1e3d8d0fc80a9570815462ed2d315b901edf48313291a431f1fdcf1896d5a96",
+    "src/drawing/doc.md": "240a03af10649d09fb0f0d32f601b18cea5e129e42f5d3e983beaf932f6fdd68",
+    "src/drawing/index.md": "a52252405e47d897a18868bd717c5d88c56bee5ba035d6720a56ec46360ab17e",
+    "src/drawing/options.ts_kw.md": "f28b10ae7e834607fd707f8408b57d920f715dc8a19604f8ca49447c205f3e44",
+    "src/drawing/drawing.ts_kw.md": "bd5c875d5b119f5c08f0ca039a177b3b9c0e1782918005974b7120745a4dd8d3",
+    "src/drawing/options.ts_docs.md": "fbec7c60e840e43c113c2101d98bf81c96b21248387bd0b7d31665928c573282",
+    "src/drawing/pane-view.ts_docs.md": "5a0065166b1cb0b3af32bf7a41a1660fe811b7b9066c3db64b437c4a3acb33fd",
+    "src/drawing/pane-renderer.ts_kw.md": "918f315e076e03af64229732c8bd4948e85f26a7441afa973141f553822eb13a",
+    "src/drawing/pane-view.ts_kw.md": "d6a2d9ccc7c758f70554dadef90e444879e5340204cf710d1673cf4022414af2",
+    "src/drawing/drawing-tool.ts_docs.md": "594819db7331282a4336c03134336f295bcaf056c9ea419920ff211c35aa1900",
+    "src/drawing/drawing-tool.ts_kw.md": "40bf1b85b068963341f4280611816703e70c3c8e7266e104b7dd3ab67e8c4b1b",
+    "src/drawing/sub.md": "26fac9b2cf62348c16bb8f2fe48025276bcf9f219c472116341babaaf269d574",
+    "src/drawing/two-point-drawing.ts_docs.md": "4f26374af175dcb1825cba7518db20289e01a8d605685fe69f8e863a20a02ddd",
+    "src/drawing/data-source.ts_docs.md": "61b1c8506db7572e2c24ac7c530859d963c46e383c96dccc3e2627b9ee40ef43",
+    "src/vertical-line/pane-renderer.ts_docs.md": "61a141e8224876c84c839d17d5d17ec2d94e6a14cf643606c271adfe17c5bc40",
+    "src/vertical-line/axis-view.ts_docs.md": "db239ce2efd9453f052c0394accd66d386023f18eacdf78f4bbd3e02976f1781",
+    "src/vertical-line/doc.md": "675d0a5d6d1fde59fb5f0f290a7931394f9b024c1eedd34e9ed9fa2eab5b5a71",
+    "src/vertical-line/index.md": "c6ece8af89e4e1a36070d3f48fead8750063240d3dd38dd4d006250f5c5cc7ab",
+    "src/vertical-line/pane-view.ts_docs.md": "9ae0a5aa60178e3991376abd3e0a1304f4d841a60557ab7ff21344534aecfa3e",
+    "src/vertical-line/pane-renderer.ts_kw.md": "71f4278da17eb995b54d014d428c35a34b4e223526971ede1c45066702197231",
+    "src/vertical-line/pane-view.ts_kw.md": "d509e17c124ee5e439d6397fc285e64c5b04adca733de59f220138736f915ab2",
+    "src/vertical-line/vertical-line.ts_docs.md": "987159cf46ef0fd0e2ddf6993d9f9cfeaefe7b41ebb309713b0a97d51208aa52",
+    "src/vertical-line/axis-view.ts_kw.md": "355657453f90c7c114c9d367352b69a0ebc8a0f405d8269519d962fc19e126ec",
+    "src/vertical-line/vertical-line.ts_kw.md": "f9e805c9525836f33494fb2685c2ebd39a754da89749c67aa999dea13deeaea7",
+    "src/vertical-line/sub.md": "64c9e2647d3628fae0c71c8d62e71ca35219097f3437ba4c1f479e60050a2d3f",
+    "src/trend-line/pane-renderer.ts_docs.md": "74c2722b28900f1497c8e2d452d17bf46323f5b797e28417134b0f5528d184ac",
+    "src/trend-line/doc.md": "5864bff57eaed33dc40bcdd20d68b1bbbd18cd479e90766ef51cdf2292001c43",
+    "src/trend-line/index.md": "3284c3b4cebd589c030c67a79a1bc487ed8ebb4ef78573736ceabbbd1b77bb19",
+    "src/trend-line/trend-line.ts_docs.md": "18277a059899ffd851a00798b12f59147cb9f67a23e541be30ae4136f4c1ff2f",
+    "src/trend-line/pane-view.ts_docs.md": "cee1fd07fdac55624e6e1e02796775887769eb2a18d338388bd728b5e68c8ea5",
+    "src/trend-line/pane-renderer.ts_kw.md": "7ab7e00bf33bde21a8bd1afe966e300800df7408d98d628f4fe67e86a976e971",
+    "src/trend-line/pane-view.ts_kw.md": "c084be5e349f6dba01ac4d80caed115f0386195b9d18067b967b0f32c57551ea",
+    "src/trend-line/sub.md": "0e6e467836906f3ad7a279ebe4d95ac0ef28564be1410b7c768009f6f165debe",
+    "src/trend-line/trend-line.ts_kw.md": "915b7b7dce40734f3478a20963ae3c86952ca55a4afcee82b8a7bb60b446c22f",
+    "src/helpers/assertions.ts_docs.md": "730aa873cca3a79d0eb775af9840209d3ca68ac5bb522fb9df17104f7406e41c",
+    "src/helpers/time.ts_kw.md": "9123e8c48f5d480c93ba364dd8afbc8798a8ddbf3eee76ee0561e728c08d3713",
+    "src/helpers/doc.md": "2b0f02565913fa429359faae8cb0b818f66ce9f0afe99fc5099048c1889733e1",
+    "src/helpers/canvas-rendering.ts_kw.md": "bb4dfb381c214ec28ef16058c4ca5f1a9d3546aff4cc70fa1aa556add3f82e4e",
+    "src/helpers/index.md": "dff5050c83f0002a6651a03322c5a2a51abf3b5656e3b535148ae515ac198097",
+    "src/helpers/canvas-rendering.ts_docs.md": "4a2c63a5f247c928767f1cc93b33c8d0c9c974b1aa83edf7dc31303b51af6fa9",
+    "src/helpers/time.ts_docs.md": "fd239f5065beedc17f2c898fe5e3a7138b15f3bde8998a2bac480f75a32149fc",
+    "src/helpers/assertions.ts_kw.md": "4f27e10b85bd77f5f489d9879db15071ee3c8a603777b8db12fec298fadd7c61",
+    "src/helpers/sub.md": "06ac168492bcfb68e4d73ebcff54cbc81cc80684d43ffa73df8d0a6256112776",
+    "src/helpers/dimensions/crosshair-width.ts_kw.md": "505a39d28b3b46522887442307972ab0f042a8e66b8fd808cdcffd4730671e56",
+    "src/helpers/dimensions/doc.md": "17b846147646706eb94255fa367ce1928e3cfdcda4827b769d89f90459d93dcc",
+    "src/helpers/dimensions/index.md": "fc202fd9498decae2287b324607852abdb2d0e842a55272404075437317039e7",
+    "src/helpers/dimensions/common.ts_docs.md": "9d20db026446fefc1056b837fd11daf691c80ab88dda6ea2abeef7e870025b2f",
+    "src/helpers/dimensions/common.ts_kw.md": "91d3761fff2ae07660f3f17ec2081c89c5382dfdec515843fdafb177e9dac0bf",
+    "src/helpers/dimensions/crosshair-width.ts_docs.md": "84028a99c8c85aac4a28de4a7fa5c6d084c1a1e0cce53d5d486a32cec9ddcd70",
+    "src/helpers/dimensions/positions.ts_kw.md": "9d46af30c24e06478be5f600d7d87182bbdc27b65bf91e1b39d3e56c3c79d589",
+    "src/helpers/dimensions/full-width.ts_kw.md": "b3098b98e09dc0557b9cc4b9697c403d1060f26d7d0f0b2a65733393e92cea5e",
+    "src/helpers/dimensions/sub.md": "9515f39f9caca8724e8a190be0e7a93364d5cf88bb3207799e944a324d533019",
+    "src/helpers/dimensions/full-width.ts_docs.md": "df8e0a52343868124501d66eebe8b13951091000001ff2b352734cb1b975f37e",
+    "src/helpers/dimensions/positions.ts_docs.md": "6f9060870d61617202ffd47a5ae1f0f042d9ed543c2296e1dec61d5d45e44f79",
+    "src/box/box.ts_docs.md": "ec0c53998d68a6a250a1e47d73a09d72b589f275eee1743527653a984356439f",
+    "src/box/pane-renderer.ts_docs.md": "8ee99a82e04ac810d38cd8fe8bb6058f9029ed507ac62121d381c6942a3591c3",
+    "src/box/doc.md": "1c1c89296eade86ebafe2416469997eaea2254bb65c9aec0aa82110bcb3f139e",
+    "src/box/index.md": "17fa041f1aba64f6e592156d6ff379cd5d7c54976c3991c5bb1b7aff7625183c",
+    "src/box/pane-view.ts_docs.md": "de74fcfc58a085c96111678b9a9239b69a55c26802cae5595f7b1264893d1d42",
+    "src/box/pane-renderer.ts_kw.md": "9b575d9820e7c3e776240f304c4516b400070e0a71bf6429fa7246ed4f85eaa1",
+    "src/box/pane-view.ts_kw.md": "4a56e229ff52f31857aa1dd905dea927752dc80f68cb860368d3f84a109a8aa5",
+    "src/box/box.ts_kw.md": "4e27ece9575aa99a0d37d4c25b16a041ae320c86490935605a15fd3a41dc5a69",
+    "src/box/sub.md": "4e21dfe088406d1f46e076193bae6cc83c3753ecd5fd9e935818c0a0c877774a",
+    "src/context-menu/doc.md": "df52f80dcdc6d8d42f948d752a5e5bb1ac0b7e391605d5c7f17530deb4b35792",
+    "src/context-menu/index.md": "8b3dbc3afa6a5abecbc7391d554e36c994732e9415d57605bfa97361c20f2d4a",
+    "src/context-menu/style-picker.ts_kw.md": "9610f0e0e8f53349a539fb044c1457f9bd839e7719b28c7fcebc5bdca24d4f79",
+    "src/context-menu/context-menu.ts_kw.md": "122445ffd52b105c339bbb8cbb7508c3a88c08d14b42dc60bbe2d185ef325f0b",
+    "src/context-menu/context-menu.ts_docs.md": "75b0ea9ceb305cbf72c50d12f8df54a46b2b3d7973710998789b33397aac3d8f",
+    "src/context-menu/color-picker.ts_kw.md": "77b03951f944b36cb5ca7d1965e4f50d472731136312f5b8cfef1e6b94e97817",
+    "src/context-menu/color-picker.ts_docs.md": "5a2a2ad6f734c6b5b216c3e9d5dd5baa1ecd9b03076e061dbf7c18f3e8aad4f3",
+    "src/context-menu/style-picker.ts_docs.md": "05c59556b8bc47885d101e69185daa4f4a72cd127c9a74fcdd3163f5142168ab",
+    "src/context-menu/sub.md": "4719adf8f3c528ea631da6bcec985da9d8c89ed633c7b2678d297dd6731d4d3d",
+    "src/general/table.ts_kw.md": "463dbff9d845feac7a84fc966ce6e34bc5faab9331d6095697e46511f5c88bb5",
+    "src/general/topbar.ts_docs.md": "ac4b4edd30d6b1a068f79c8560895894b482dc1b624a809a9f1893a3cf0a55c3",
+    "src/general/handler.ts_docs.md": "9d3163c3c6ddd0000e23566dd8d64d7cb85bc3f652b736140152916a965962ab",
+    "src/general/index.ts_docs.md": "c75222e661c7b4a638f326a1f168735b3ca4386c8e2abcf7eb9b2d93604082af",
+    "src/general/toolbox.ts_docs.md": "25433b70019c75027772ab1618b1b4ed702ff29ea5995da8a7a60b0c3fac59f1",
+    "src/general/topbar.ts_kw.md": "3157187abfadd615b5742cbecbffde8168e200d89a77cc2de5a563b83b8c2d58",
+    "src/general/doc.md": "8131212cf8f8c7ae132476bf3c49863e23da49632b9d2cc3ef9bec81f05a720c",
+    "src/general/index.md": "4a5d4de1f572f4a15b06eb7192ea4bfeaaabe733b65b6a7283360914e9df3349",
+    "src/general/styles.css_kw.md": "7148c279bf23cc3af52ff9af614861463ad89e9298397ee3cb663af1471c3810",
+    "src/general/styles.css_docs.md": "fc3551754d2555a54be36f9498f2b97048a5b83e69844c9f7fcb8dfae3d5df7a",
+    "src/general/legend.ts_kw.md": "4213d8deaf00e6200578c2a9a5dd80e28567b711917ea51e9251daf32904a0d0",
+    "src/general/global-params.ts_kw.md": "4f6a6f25fcfebec099eae9ad4862991c7d50d204071922e27defbb549ff91c3f",
+    "src/general/menu.ts_kw.md": "daccccaf615cda7cc8bb348794ae7ba899d697f2b7c167f4ab1b6ef677864fb1",
+    "src/general/table.ts_docs.md": "907bab9d68c29dc78ac8a3dc203f049d2ba1b473ae79dd00036c0ce5dd4e7bb7",
+    "src/general/global-params.ts_docs.md": "ce3118aaff4f4f6640cee20db8713fe99134297963b985e526acb18164e78826",
+    "src/general/handler.ts_kw.md": "227967b8180cee341fa5356c7f0301b42b06fc5ba461014a0bb11fb04809b553",
+    "src/general/legend.ts_docs.md": "e1b5043fffe027add7d29fe686c18c45bcbf0ae43c11aea7d3616c8e42d8f489",
+    "src/general/sub.md": "efdd5baed45f42e8f6672af4edd0e8a62bf95ce01029fe07d8a115199904e71e",
+    "src/general/menu.ts_docs.md": "ee5e487c389e38bcf7e5b67e6d398b9e1a54b8e4b22b0d19c9e8fe678c8f39d5",
+    "src/general/index.ts_kw.md": "4b93e9be899332d8ed63879019b276da92a4702b1a9491d6cd1d18f1dc621b07",
+    "src/general/toolbox.ts_kw.md": "1324e18a059b91772506e9281d64b64941d8927de82ee1ca3b0dc4b4db270f0e",
+    "src/horizontal-line/pane-renderer.ts_docs.md": "1856c1b2d99c25ea19ccf393bdde23d0544e241fded4976cfb2956b5aa3a86e6",
+    "src/horizontal-line/ray-line.ts_kw.md": "438eed20ff1a1a0116f98219d115fa207c87c50753bd72f1b861e45b9bf3e243",
+    "src/horizontal-line/horizontal-line.ts_kw.md": "686b22485457c5d028318ce244cdb6b47669e323c18c96055c5d2d9721f24dae",
+    "src/horizontal-line/axis-view.ts_docs.md": "63eed8ca29128f6327d144ca4de146a6630fa6af33350ba7716444b59555e67f",
+    "src/horizontal-line/doc.md": "730edc84f7181f584dd74fe3eb6ab28bb89a51274c42d0a429d68858d36d5ef6",
+    "src/horizontal-line/index.md": "94aaee8c3e7df48a8d0542cfe4eb41d205934a4794c7bf2384d83ec4694d2f2a",
+    "src/horizontal-line/ray-line.ts_docs.md": "ccca845172c976bfc40d7892e058e1f38e6b13005ecf309a1cb57e3d3c47a327",
+    "src/horizontal-line/pane-view.ts_docs.md": "a874a1f9edf5aa554d5b73c24b95c64e4cc186aaca81ac863bd989324c735ab1",
+    "src/horizontal-line/pane-renderer.ts_kw.md": "f7af45b78c1d4f7ee430b0209808688f37752cc71ce70c740f252c6351eba0fa",
+    "src/horizontal-line/pane-view.ts_kw.md": "9e44db49842310d12ac692532175fc90bdf8c9a9b874d1a04189c16861c253ab",
+    "src/horizontal-line/axis-view.ts_kw.md": "9f75489f46d18ec8de5967ae3ccb29c3022e598750c1c6bd271e3c6824bd75d3",
+    "src/horizontal-line/horizontal-line.ts_docs.md": "cce444227940fa48c7f190eb0d36c4ae54425d78128d177ea050d23d92f01b25",
+    "src/horizontal-line/sub.md": "5428f0d8f0f5bc007be77b2c1d3a8c799dc465658b120fec0218fd854288ecef",
+    "src/example/example.ts_docs.md": "43b064a3c2569573c37257bdf1d727a01ec1f76d1ddee3d487967425ba9df7ec",
+    "src/example/index.html_docs.md": "f326c4e8ea98a8ede38861af1ba0d92e76dba71071311d89b038311764aaf343",
+    "src/example/doc.md": "8e1878305b2e71b44db248aeb762b72e452d79091b55702e7b69850a0abd7a80",
+    "src/example/index.md": "9b36a01f05b233cc3bb8f3f56dda4bd700c632a6cf94c02b4cefe7b59eb5c4ca",
+    "src/example/index.html_kw.md": "726c4f7e31f0c1bd75bcc4d3ce53a25ad4e9485b437f1a94b804051eff01e6d4",
+    "src/example/example.ts_kw.md": "e2e34100e5772224f4393fbe1f9ec47c9a5a8e18e68b6d72b45b1c23eba11670",
+    "src/example/sub.md": "0a849b64f7c0d58d065ea71f11461c37e12e38907b10ee2a0c882d3e369449b1",
+    "cover.png/cover.png_docs.md": "001b34686b7cfaa4018b96df654adc9d10dc1bdff39ea09f014b4e1c221d6fe4",
+    "docs/make.bat_kw.md": "6ae5b902cc8ae73cc126bfb0e2fd537944771095d1009419e5e5cec790b46566",
+    "docs/requirements.txt_kw.md": "7a8c2c4172fe74c0d0852eff6f327d549a7651632e00728728bae5983e7fa77b",
+    "docs/Makefile_kw.md": "375899a4fc2048585b3a644315f5cbb62bf90342ebdb51d576c0d01ea4854140",
+    "docs/doc.md": "8bdfa396a8c6b0530813d769756afb13e4c7927dfeca742c949a995e39e3b467",
+    "docs/index.md": "b9cf29809010a2a7abe62abd89f2ac4bd2366bae295097f1414aacd883b4c34c",
+    "docs/requirements.txt_docs.md": "592a5eb13f7f279f6e58c70d3fb075b0d0f471a351694f262509ec1dee85a85b",
+    "docs/make.bat_docs.md": "d895258193050e4593e78984cac54390b919ca920d50a960a5e83bf0e28732ad",
+    "docs/sub.md": "c9939a7cfd1890a83bc31049aa761a9314a60a79e74fd7578f33733673dc3c76",
+    "docs/Makefile_docs.md": "64f32a6ff8043afa9f6ce8159e1b39aa2596035b356981b5144c456d3fb655f7",
+    "docs/source/conf.py_kw.md": "58573a8d7624b300e085244a6d4cbbdfef963d3d05d39694e305506c68ae0503",
+    "docs/source/index.md_kw.md": "df2514076113edd02c9dcf23f191e75b4dded79f5068cac8e919386c381fdf8d",
+    "docs/source/doc.md": "23aa837ed233e93204db26d720e1e208628f05496eebb178a6d4c1949f1be81a",
+    "docs/source/index.md": "a827e7b58409ec23d6112d1c5deb2352816b6fea77912f1f490c6f6b373073c9",
+    "docs/source/polygon.md_docs.md": "e7b49831f53ab67c3ebf2feffca4f3a0166f662ee35b6b51ae18142694374bf1",
+    "docs/source/index.md_docs.md": "83a9a8bc2d36050ab38394641282ad55ef791721d2bc9e199959817bc49e2a0e",
+    "docs/source/polygon.md_kw.md": "feacb204536879ef15623dac454ea3dfa635cedda8d286dffdee4df9d3ae0a43",
+    "docs/source/sub.md": "4ba906186c96e1208f33042087b45fe7d8a0489f709e4a4d05ce815d3b464a15",
+    "docs/source/conf.py_docs.md": "58d7c24608079c8d24c49cc27c3ae3ea6c2d5d538d4c4cfd90089da3cd20fdfa",
+    "docs/source/reference/topbar.md_docs.md": "bd0ef8473adca7d8c810cb2921b4279d19ab9b5cee845a7d1eb85127af789223",
+    "docs/source/reference/events.md_kw.md": "7dd17cedc8dc5d37829460d670412542732e188f82c44dc20fa5f519b39a92d0",
+    "docs/source/reference/events.md_docs.md": "010bb18259cc290be88967339617f25e019cc3d673874fa8d4bd27e76262d653",
+    "docs/source/reference/index.md_kw.md": "82c70c0b90103b92474f66175dd85f87fb8dab4c8b2f13c37b12f829e9a361d1",
+    "docs/source/reference/horizontal_line.md_kw.md": "4e2f720efb6b8b100b4aa054f006cc51d9496bcb4464c913f417b82faac440e8",
+    "docs/source/reference/doc.md": "44aaa4299d3e3915261f23de6fc62b685cf5f4445375b2c4407181dd2cc431ce",
+    "docs/source/reference/abstract_chart.md_docs.md": "dd022cd368b1566aece5f165510918f9f0e1f348bc8f7d90fd7e583e25ce50b7",
+    "docs/source/reference/topbar.md_kw.md": "6451c9fa47825bfc037d8ec3f1e8bf0d09bfce23bf548181d933897c569ae574",
+    "docs/source/reference/index.md": "ea8d79058c749648c4ecac92e7e1a6753feea086be22e68d04bbdc364ababa2c",
+    "docs/source/reference/typing.md_docs.md": "0c5936e59c193b4b6850fcdc79030e17bf87194ceade81b15917b8e3ad75f9ee",
+    "docs/source/reference/line.md_kw.md": "4e000d1771a24e1c30156f41469abd660d1c0b6d3e537eed95771a15a19f6997",
+    "docs/source/reference/tables.md_docs.md": "ddc077a746081e52a3a803c1f18a8ec2cba69d68505097de793efc9860189762",
+    "docs/source/reference/horizontal_line.md_docs.md": "a50b8e28b8e46d45033392ee0a46ebcb27541edd4a9760d7297324b9bf6701e2",
+    "docs/source/reference/charts.md_docs.md": "9ebda68ff3b1aad8b1ca55434a8f01ec158865cc70e5081930ec4b36cdb944e7",
+    "docs/source/reference/index.md_docs.md": "983625000b3971864ccaa37f6158adddd3ee0dc7d7a41e49033b0e6abdbbc0e7",
+    "docs/source/reference/histogram.md_docs.md": "b6ee90212105be0a7431200a90bce89a6df33d4b8193d591d3b634f2ba233ae4",
+    "docs/source/reference/histogram.md_kw.md": "e576cb94494deccbcce223d87e169f8394e8812dceaf0f59edf6f6688d197989",
+    "docs/source/reference/toolbox.md_kw.md": "23d749c83e372d7451082194d0c8a3cffd04f9db2863e2a6bc03d1fe367a4b44",
+    "docs/source/reference/sub.md": "4a3a5fd5b8f4b4d0ead8da528259411d96e8e551127bef55b4d9ff5e8e98d66e",
+    "docs/source/reference/typing.md_kw.md": "431f14e6b2cef1c8939ee1bc0369105e76bc7dcd6f355c784968524cdbd1ff95",
+    "docs/source/reference/line.md_docs.md": "9ed98eae172151b9544feb1c2b26e6b14fd046aa36dba329335217f0fc0dce69",
+    "docs/source/reference/tables.md_kw.md": "60f80488c640591f58af75377c8fd84b8297199866c7bd8aa39cb0b480133d32",
+    "docs/source/reference/abstract_chart.md_kw.md": "baa35f75f4755405f6c16fd6db31e18b1c602e088c02bcecd96ea076fa91ab2d",
+    "docs/source/reference/toolbox.md_docs.md": "397894c760964eeacfcb8e75fbe120295ad6f4f6ff452c135cd9100fb149c546",
+    "docs/source/reference/charts.md_kw.md": "3fb7d51368266b1583d26577532f63e10db9b83bc79ee0f9c6162118fc2ae4f3",
+    "docs/source/_templates/landing.html_kw.md": "455fa2c4deaec4f40353dcb7c2508e03f794e9e5c1711d5a26160f2e302427a7",
+    "docs/source/_templates/doc.md": "f412ccdac28cc901b677abdc250da4e4eb91d8f8b1e58fc70666a0f15dd510b5",
+    "docs/source/_templates/index.md": "a33d304e8be10644850c5934ea7b515ddbb9cf2484c6a0d7d8b578d04d894bc5",
+    "docs/source/_templates/sub.md": "c75c2cf9509a996afc1e23ae4cb8c291fcc6aacdc12462bc4b52a588d4bdf197",
+    "docs/source/_templates/landing.html_docs.md": "502b6e3441e9156cd689321910470d8f98c05274e734840e0b5eeae2d7458f88",
+    "docs/source/polygonchart.png/polygonchart.png_docs.md": "0ac43990e72a7b04dcb0b9adc3484cc5b21f8a8156805bacddfceef5a336a1c8",
+    "docs/source/tutorials/events.md_kw.md": "d29971d8e671f975b48a4113b9b99d37730b3c3d1a78dea30456c318997f35eb",
+    "docs/source/tutorials/getting_started.md_kw.md": "d40b2ac74991d6fec03d5bd551872207e916c49db3e5af9cc3f043bd2c4877f6",
+    "docs/source/tutorials/events.md_docs.md": "b0680cef1795c52165da4a5a5c025dac3b4122934dd1e2cb5b1d2f39d62bede7",
+    "docs/source/tutorials/doc.md": "1d8696d9604b1bbc2fe497213c5a938ae661dcdb913ea5f75fb895e57f70cf62",
+    "docs/source/tutorials/index.md": "bf6fc98257d9ac181a89a21be6c4183848d3f84122dd21ae8590ab1eb4aceae1",
+    "docs/source/tutorials/sub.md": "0a9143789251f35c01aa6969ad8f18dd29135f0769cb085ba80ab6715928fcb1",
+    "docs/source/tutorials/getting_started.md_docs.md": "ca0f2515a01a6c49753a511ee9b533df717517b2d9cffbf422c019c6d225b762",
+    "docs/source/_ext/styles.py_docs.md": "05e6179ccfbf5aeb8d929f5312e57486c0a6e283bd7e41be715fc193faee855e",
+    "docs/source/_ext/doc.md": "d3d951ffec995bd9100af2be31962593444d5e70b7beb03e1475069981fdfd27",
+    "docs/source/_ext/index.md": "a9d95f4ba2fa3495c996e3e6670133ce03df1aa8bc62bb9c12d4c01159eb2a96",
+    "docs/source/_ext/styles.py_kw.md": "5a2fc21e60056cb302e8e2128640b18a3fd7435dc801071c8d2177ad8be01d9f",
+    "docs/source/_ext/sub.md": "62237fd4c3973e76b6576bbf0bc112f9cf6511ab94589150cfebeb74a928642a",
+    "docs/source/_static/splash.css_docs.md": "0d71e954007aded0a0e5879aa944dc00d0928e9b871f0a602ee40de91e736843",
+    "docs/source/_static/pkg.js_docs.md": "34833336f542534f762269e6a531aef99937f0404ff712db6102b71038b45aa4",
+    "docs/source/_static/pkg.js_kw.md": "cdab4236d88302b9fccd54e26e0ae2cc812b60d6ba9db607f0a44b3bdc45b695",
+    "docs/source/_static/funcs.js_docs.md": "b38af02089dae3f43c4910803dd95cc678a3f5c01a26ce85fc80289e61dcb43e",
+    "docs/source/_static/doc.md": "a68f6f6b7787ec5d468d49e24eb8acd8b280eef51fb68cf16de6c74fdf8b9246",
+    "docs/source/_static/index.md": "2cf06ec5671ba7b1ea817358f0d49302897a7c3864433dd41b0ad9bf40dd4333",
+    "docs/source/_static/ohlcv.json_kw.md": "3c62f82c90aebe78c5ec9e8ce974e8178f2dff28abae19bdb5d8ea1071c47f78",
+    "docs/source/_static/toolbox.js_kw.md": "8f4a7f6aceaff32bedcb4670cd4b629d3f4a60b3a321d9b7646121e0e18a26ca",
+    "docs/source/_static/funcs.js_kw.md": "8f248a99d5b49045c9224241cd3bf4797b9816e2c337f6a73e4654db34315a5c",
+    "docs/source/_static/sub.md": "55aa3efc0bd944e67e34a4cc6b2314fbbae4d93172ba7bb14640a27a43afdb3a",
+    "docs/source/_static/ohlcv.json_docs.md": "770ff11d81978ec1c6c1e683c3c7ec243df2356803395e450a9382ed20536437",
+    "docs/source/_static/splash.css_kw.md": "2fb8d89284f61c3bf66491f81701eb79c840d998a83a19db13c968548ed39d2b",
+    "docs/source/_static/toolbox.js_docs.md": "86b74b603419652d114fc62b52c968d11b1cc42c423562c70a47b7d871e16c5a",
+    "docs/source/_static/fonts/doc.md": "a1ce7efcbbbd72eac6f6a5a76f3d7ee326ffb3f0f33b41ea7273fa416ce8360d",
+    "docs/source/_static/fonts/index.md": "985b91ff8ecb58787cdb47dc3f89867c8e4d0b67d4936fe6f188373733bbbdaf",
+    "docs/source/_static/fonts/sub.md": "8e9e9ddb09189a32c47906c30a6d402817d5dff450f82c3e6986cfcb721ce264",
+    "docs/source/_static/fonts/MaisonNeue-Demi.otf/MaisonNeue-Demi.otf_docs.md": "dac880de5a561ea0f50ea4f785bdf5831d4a72c02797241ae45c6a56e95c36b5",
+    "docs/source/_static/fonts/MaisonNeue-MediumItalic.otf/MaisonNeue-MediumItalic.otf_docs.md": "2dbb9980f5721b3232dcc3260835b944784bb8dc9b8d7de229e1b2ed7a49ea66",
+    "docs/source/_static/fonts/MaisonNeue-Medium.otf/MaisonNeue-Medium.otf_docs.md": "c276153015e65f5575956d99875827fdc8bbddc529883ea846f9c1d752fdf2d9",
+    "docs/source/examples/yfinance.md_kw.md": "2c278c9597debf214f790fc2cb250d4905c68c64e9bc915fbf4198e721bb9433",
+    "docs/source/examples/table.md_kw.md": "b93628dcdae9f4199a7faa8e4ff891806c05108530063505524fb234fe4b29bc",
+    "docs/source/examples/events.md_kw.md": "874f87eb09605ff6bff83bd316ceaec02be35454bda42c5d65a0ddca1917e1ed",
+    "docs/source/examples/events.md_docs.md": "e82f0cb239331d92e52e8c21184935cb4ceb42227dd0e53aa9764ec3d06067fa",
+    "docs/source/examples/yfinance.md_docs.md": "9e42d653b4b303a6481cf1fc90bec0e8c8644e88052f871e22a02bcb61f99645",
+    "docs/source/examples/gui_examples.md_docs.md": "a32fd27a00533fff7b045bb8bc2816f9b39ab94eb5de0178ec884115803d53bc",
+    "docs/source/examples/doc.md": "8633c84fadedf216e595dcd27142f7640c35b30e3120eeae5254c02b3f70d04e",
+    "docs/source/examples/index.md": "d1b91b10e899f2e840eddddfb4c019fb98d92d30322676caf2cdc20c363ef821",
+    "docs/source/examples/subchart.md_kw.md": "2d5cd003270400183e2f5bdb3bd0a139248a66d0a969825a88361b60fd9c5adb",
+    "docs/source/examples/table.md_docs.md": "549c5e73ec7880d9e21c3ecadedddf83f42744e841be62cf98de55418ee26e23",
+    "docs/source/examples/screenshot.md_docs.md": "d99d3461759c0dcaf76959744c60fa7c49e6b2414704954ccae6ea4cdfc7d2ef",
+    "docs/source/examples/toolbox.md_kw.md": "68055a646b1e876513879e2d1734d6e5fb20fb5048c44d6e4b1e11dd7f917122",
+    "docs/source/examples/sub.md": "e5a346826ce810a00ac6bcc8338ec63823d2feb40d8a970cab330982512c1840",
+    "docs/source/examples/screenshot.md_kw.md": "09687f10e91a2cb3ec7649f2bd924770b18ade80f33853608f6356b6c6eb3eaf",
+    "docs/source/examples/toolbox.md_docs.md": "47627fccd3f3c54d9ad5570d52995ab6e0b040c1acfc73e1666bf05af59712eb",
+    "docs/source/examples/subchart.md_docs.md": "2ce7e71a4b71e2fcf6f76473f523f20fbcdfb93536e67f68d673ece91927a1eb",
+    "docs/source/examples/gui_examples.md_kw.md": "7c62b7f2f65e8d5dd36f5e9f02602dcb7648e9c6c0e27491597124b77251e6c2",
+    "docs/.generated/doc.md": "ba50934fbf8a982ba7ebf298ff11b13a02c983ebfcf8691574fdb4fcd0cf54f2",
+    "docs/.generated/index.md": "4571b3ead135c2a382d9718a56ef2ae7308a3e04c1aee29c37ebab5e63e14b3e",
+    "docs/.generated/sub.md": "aa10c93013a178e471df631c00a2da37493ac344a351d4be3c01258933b2f39d",
+    "docs/.generated/.progress.log_docs.md": "81bfa913593979837bbb6d2e5708afdc2c66a7d94b9798363a7bba58d92cc866",
+    "docs/.generated/.progress.log_kw.md": "1805b03a3f87afda76e296e444b8dd6d557f4fd6c29361e631a77f7c5b5ca694",
+    "examples/1_setting_data/setting_data.py_kw.md": "415ce06045b2c79c914b3fb95b71f54eb7d8a15e67ac784a8c8476f617d1891b",
+    "examples/1_setting_data/ohlcv.csv_kw.md": "9bcb51f1a83c1790b1e9f53bed4719eb7bbff52578f10c72f58f7921277a8c51",
+    "examples/1_setting_data/doc.md": "53ae9ffd8136b0698de57986575a45a0b2ad3fb1ca7a313f7bcfee0a2de40f6b",
+    "examples/1_setting_data/index.md": "3034273038b93e4594e42569e5a7c31e23722d4b188dbb951257a9bd4f1524dd",
+    "examples/1_setting_data/sub.md": "4331721f4e2e3238b6895d544acc9222567d3113bf6949454fb88a86e7ea4a62",
+    "examples/1_setting_data/ohlcv.csv_docs.md": "8386a9edfc69c283195b4f8dd311e6671c32c665538267b9c103fd0aa7bfe446",
+    "examples/1_setting_data/setting_data.py_docs.md": "ba8c91e22145daec32c25fd74d7f72546cf9e67d5671dc35097967d35818d838",
+    "examples/1_setting_data/setting_data.png/setting_data.png_docs.md": "e42c74dd00d210a1a3f2d562e482c453b23eba6e1ec49a5f528d32f285329958",
+    "examples/5_styling/styling.py_docs.md": "0d7e0aa1489394d35638d33c0d7afeaaa51083a2db4360317dcec937156f46c3",
+    "examples/5_styling/ohlcv.csv_kw.md": "9bcb51f1a83c1790b1e9f53bed4719eb7bbff52578f10c72f58f7921277a8c51",
+    "examples/5_styling/doc.md": "aa60b61be365fc0a63d09108a38a2e447928a62a033751433517202bac789802",
+    "examples/5_styling/index.md": "5dd16a392be8d8df35b068856587f392e781ff76a458279b7228efac0b354ab0",
+    "examples/5_styling/styling.py_kw.md": "167b58367c67e04f17b5aa57a2d3ded47c747560983a0e0e1d42c8c500eabbdd",
+    "examples/5_styling/sub.md": "b2053dc04c88bbef002ce6a047a882a780aceb16263414e40c435814d8fc7a1f",
+    "examples/5_styling/ohlcv.csv_docs.md": "756a7d784f57ef1899757dd6c21914f01fd3440a9741e238f20a6ada07cc2971",
+    "examples/5_styling/styling.png/styling.png_docs.md": "de558142b09f7efd2dbf7640d0091233aa873914a46f64fc1e4259d73957dec1",
+    "examples/3_tick_data/ohlc.csv_kw.md": "2457d6483b2b898a62ea26fd939f6cf4e39280e7a7f250bc80114683c4c7a751",
+    "examples/3_tick_data/tick_data.py_kw.md": "0e9a25be52535da0c5c556d43d96b46186448ac627c19a26707e9a4249646cf7",
+    "examples/3_tick_data/doc.md": "b1a42ce48954d4d8e6b8aed4693aeaf2b80e4c21307b87e0bc1fe852a285bbd3",
+    "examples/3_tick_data/ohlc.csv_docs.md": "c2298db405822020bd60b5ec2255699e0506d4b6fbe4c000e1e2f6350cd6b9f6",
+    "examples/3_tick_data/index.md": "2dc1054067c7a2f6c7e18d166f8ccae591e23ec8ff4a43f6f4b8c91d2b0069eb",
+    "examples/3_tick_data/ticks.csv_kw.md": "651ac692cc6d48e1bc83a93ab8881d77ac9dc229e196bd113d415d0498813513",
+    "examples/3_tick_data/tick_data.py_docs.md": "a589239e479e7756289c3e4018d1a0cfd59a47725f7afcdd8d028bbabb7a406f",
+    "examples/3_tick_data/sub.md": "4252ea0012a5e650905fc70d5333d0d91c749d1d337d9d888320721b0f16796e",
+    "examples/3_tick_data/ticks.csv_docs.md": "7dee28a6b224a1e711dfa78fc76973cc1c72aa981482e1129bfeadfc9a83c77a",
+    "examples/3_tick_data/tick_data.gif/tick_data.gif_docs.md": "4c33d3be5266f00fcf30be28b3ab0774f9b05a0034bdffe6fad911743b1263f8",
+    "examples/4_line_indicators/ohlcv.csv_kw.md": "9bcb51f1a83c1790b1e9f53bed4719eb7bbff52578f10c72f58f7921277a8c51",
+    "examples/4_line_indicators/doc.md": "d0191f4e76f4ba674141ca8a6cae081f6bcf53ed1f9f6f96ecff9fa918fd1116",
+    "examples/4_line_indicators/line_indicators.py_kw.md": "13849ad6d8f32f09f18805e1a2588e04c1bea14a7dfff4a5f519602006115a15",
+    "examples/4_line_indicators/index.md": "84919168350b7dcfe7f50a2537c36378de3904ed8f61c28ee9d2490b2751a242",
+    "examples/4_line_indicators/line_indicators.py_docs.md": "974358c19a55a817ccdcb14f3caccf4b8ff2f3b1a2fc7204ade3044b35797b72",
+    "examples/4_line_indicators/sub.md": "2aeb3247beda88257cc8c094fa5e5df8181a0fb0911705df7cfd96b640928263",
+    "examples/4_line_indicators/ohlcv.csv_docs.md": "a7f4a6ace0a484973d61da4448d9756d0bba5aad5a99cda8a0beb7976d445ea9",
+    "examples/4_line_indicators/line_indicators.png/line_indicators.png_docs.md": "797eef3ae3355a4938704db881d3a54c576ef73770d82db6b2afa8da523ef6ec",
+    "examples/2_live_data/ohlcv.csv_kw.md": "9bcb51f1a83c1790b1e9f53bed4719eb7bbff52578f10c72f58f7921277a8c51",
+    "examples/2_live_data/doc.md": "ee0d855000bcf824fbcaceb9438e7f347bbe98b0e96a635b58a6c3056fd2b124",
+    "examples/2_live_data/index.md": "36db718fc48498de059429ccb1c934771e0581cdf84df99fc95b9aa609836dac",
+    "examples/2_live_data/live_data.py_kw.md": "841039cc71c4a4f677a93c06383f259fb8621f116ee27c6acebfb555c1d04479",
+    "examples/2_live_data/next_ohlcv.csv_kw.md": "cc49014c8622a2d0c220c00d6ffc6e42da9042d75f59ca8bba097e684e8bffc3",
+    "examples/2_live_data/live_data.py_docs.md": "63bde91f89f082a627927778c0201c35a3a8e4e7cac71b7869c6953fb990a407",
+    "examples/2_live_data/sub.md": "8dd786ce29774b5d71e8016d2e833f5f4d2eb712b9731e0e6c14c4e47d967a50",
+    "examples/2_live_data/ohlcv.csv_docs.md": "0dfeb306350004b947391d780226835c5988a9e48f65ee963fe62240a4d2fee4",
+    "examples/2_live_data/next_ohlcv.csv_docs.md": "0a4590aed35d2529990d64f651a7802e06b82fbe34d581d50f730fcab25c1b44",
+    "examples/2_live_data/live_data.gif/live_data.gif_docs.md": "7d37e9a11f60ef5708ff3f996726fca3246a9207fa035907e2ee59c3b43e73d1",
+    "examples/6_callbacks/callbacks.py_kw.md": "0eec4e540121418c1aa0b78c4af0817636db7c8b9cc70949f720543b1a70aff5",
+    "examples/6_callbacks/doc.md": "e52df85ce58a116be43f299766e5c8257078aec2ce7c52aeca63058d64d36ba4",
+    "examples/6_callbacks/index.md": "4cac58de5a6782ad230d0b756d6c9be71983912e224b9a0912907b642bf0e496",
+    "examples/6_callbacks/callbacks.py_docs.md": "4c521fcab0e4aaf9c848965d56c519fc595c02da2e571725efabb8e874754813",
+    "examples/6_callbacks/sub.md": "18d79b5d4f4f84cc199efff5a793c799d2e53ed38390e204354d11223e634c44",
+    "examples/6_callbacks/callbacks.gif/callbacks.gif_docs.md": "316de32fe8584a952efd7540425b762c7596645595cd455889fbda179705115e",
+    "examples/6_callbacks/bar_data/TSLA_30min.csv_kw.md": "68d18213045ab847872bce9c30c510831ac73e29b79ee663ab6f92ed99695e64",
+    "examples/6_callbacks/bar_data/TSLA_30min.csv_docs.md": "d375eab3334f860a0c8e69c97372d85def5fac2cac2233ee01baa45d239d4436",
+    "examples/6_callbacks/bar_data/GOOGL_1min.csv_docs.md": "f55618b74aafff36246920aeea1471024b21b5483464bbbf7d67c34219e51d64",
+    "examples/6_callbacks/bar_data/TSLA_5min.csv_kw.md": "d5db6829a939bdfb60a57ad7875473d0e5d7c67ba27c5a29bf8d03f1922a57e2",
+    "examples/6_callbacks/bar_data/doc.md": "ef715a50929f3f1df985c1c55ca92d7837c6c6c6f7085ac4fd4e16bfc55007ee",
+    "examples/6_callbacks/bar_data/index.md": "34ed5084669c9dcf64fb0d1bae574fab73a4a629031500d75256530977695ddc",
+    "examples/6_callbacks/bar_data/TSLA_5min.csv_docs.md": "0f8c73df007c8aef11a66d6d5d1d6ddf74e7ccc2db52d4a94da5d9cecc08e0c6",
+    "examples/6_callbacks/bar_data/AAPL_30min.csv_docs.md": "6d7af99c2640ef4023ab1e2ce08f8f20f2f0d933956d0c70324546e27b6c2212",
+    "examples/6_callbacks/bar_data/TSLA_1min.csv_docs.md": "8f38a134600d7031998c5df73e217a44e3eb7e87359c3d29b67ce4d1d1ca8f14",
+    "examples/6_callbacks/bar_data/GOOGL_5min.csv_docs.md": "77f212043b40886edcd92a373d3a93594d0e0572c514869a2e600622d7a82193",
+    "examples/6_callbacks/bar_data/GOOGL_1min.csv_kw.md": "95e9da3ef23f30a2a021e45bcabfd84fea790e3f17bf89458208cc4f0dcdafba",
+    "examples/6_callbacks/bar_data/AAPL_5min.csv_docs.md": "34ea0f9b086bf39331f55dc4738cd6aefdea4668d3b81d5131a0512ce617390f",
+    "examples/6_callbacks/bar_data/sub.md": "71b204c6167904d42ea05c4dfb763d3fdbeea2e614cd2e2c1763dfae583d069d",
+    "examples/6_callbacks/bar_data/GOOGL_5min.csv_kw.md": "d79bf4c6d5d6e572a6d0b762e3ce42544519421e87aaa0ec64bf34b99bf1ed2f",
+    "examples/6_callbacks/bar_data/AAPL_5min.csv_kw.md": "724c5d3e8b5bf177d2b39ce7d44eb4dfc39ff62d4aa71db25bcb9f30ca75b187",
+    "examples/6_callbacks/bar_data/GOOGL_30min.csv_docs.md": "870fab2f93774bc4759e251c50b372d06207c179ad2dc588b7d89560c23d66bb",
+    "examples/6_callbacks/bar_data/AAPL_1min.csv_kw.md": "a81fa5f114af4055b8426ae2425706fa74070485c6accbdd8f7ca906fbc36122",
+    "examples/6_callbacks/bar_data/GOOGL_30min.csv_kw.md": "d8dd13126e14aa8e962166645f9f49aac5f67260ebd3c5d2e4d4fdfc673fd8a3",
+    "examples/6_callbacks/bar_data/AAPL_1min.csv_docs.md": "efa82326dea3727755238d27123958ab9fffe18e8b27b723fa8f3e102ac711d1",
+    "examples/6_callbacks/bar_data/AAPL_30min.csv_kw.md": "21b72ed34b22a2dd19c1f132a2fbbe8d82cc5398ca287dffcf410da39e1a387f",
+    "examples/6_callbacks/bar_data/TSLA_1min.csv_kw.md": "10bfaf5695910c0e27718d7daf67e2078f2d37d305f222c772f89f148567c607"
+  },
+  "processing_timestamp": "2025-11-15T20:41:33.682230",
+  "verification_timestamp": "2025-11-15T20:43:17.122596",
+  "broken_links_count": 23,
+  "total_links_checked": 1409
+}
