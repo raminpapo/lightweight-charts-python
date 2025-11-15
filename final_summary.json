@@ -1,0 +1,18 @@
+{
+  "repo_source": "lightweight-charts-python",
+  "repo_fingerprint": "37247e1ac093917f...",
+  "files_scanned": 148,
+  "folders_scanned": 31,
+  "docs_created": 384,
+  "words_estimated": 848280,
+  "bytes_written": 4241404,
+  "errors": [],
+  "keywords_extracted": 633,
+  "links_validated": 1409,
+  "broken_links": 23,
+  "checksums_computed": 407,
+  "generation_timestamp": "2025-11-15T20:41:33.682230",
+  "verification_timestamp": "2025-11-15T20:43:17.122596",
+  "commit_sha": "052d778beda66f569175cbe6774aba5d3e3b1dea",
+  "branch": "claude/repo-book-generator-013rThP4jeZBUmL3RRFPQFFF"
+}
