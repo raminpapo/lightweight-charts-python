@@ -1,0 +1,646 @@
+[
+  {
+    "file": "README.md",
+    "docs_created": 2,
+    "bytes": 25636,
+    "keywords": 52,
+    "status": "success"
+  },
+  {
+    "file": "LICENSE",
+    "docs_created": 2,
+    "bytes": 15834,
+    "keywords": 44,
+    "status": "success"
+  },
+  {
+    "file": "package.json",
+    "docs_created": 2,
+    "bytes": 1673,
+    "keywords": 0,
+    "status": "success"
+  },
+  {
+    "file": "package-lock.json",
+    "docs_created": 2,
+    "bytes": 19929,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": ".readthedocs.yaml",
+    "docs_created": 2,
+    "bytes": 1378,
+    "keywords": 0,
+    "status": "success"
+  },
+  {
+    "file": "index.html",
+    "docs_created": 2,
+    "bytes": 1805,
+    "keywords": 2,
+    "status": "success"
+  },
+  {
+    "file": "build.sh",
+    "docs_created": 2,
+    "bytes": 4715,
+    "keywords": 10,
+    "status": "success"
+  },
+  {
+    "file": "setup.py",
+    "docs_created": 2,
+    "bytes": 5465,
+    "keywords": 11,
+    "status": "success"
+  },
+  {
+    "file": "repo_book_generator.py",
+    "docs_created": 2,
+    "bytes": 25504,
+    "keywords": 44,
+    "status": "success"
+  },
+  {
+    "file": ".gitignore",
+    "docs_created": 2,
+    "bytes": 1886,
+    "keywords": 2,
+    "status": "success"
+  },
+  {
+    "file": "tsconfig.json",
+    "docs_created": 2,
+    "bytes": 2008,
+    "keywords": 1,
+    "status": "success"
+  },
+  {
+    "file": "rollup.config.js",
+    "docs_created": 2,
+    "bytes": 2050,
+    "keywords": 1,
+    "status": "success"
+  },
+  {
+    "file": "examples/3_tick_data/tick_data.py",
+    "docs_created": 2,
+    "bytes": 2669,
+    "keywords": 3,
+    "status": "success"
+  },
+  {
+    "file": "examples/6_callbacks/callbacks.py",
+    "docs_created": 2,
+    "bytes": 7762,
+    "keywords": 14,
+    "status": "success"
+  },
+  {
+    "file": "examples/2_live_data/live_data.py",
+    "docs_created": 2,
+    "bytes": 3211,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": "examples/1_setting_data/setting_data.py",
+    "docs_created": 2,
+    "bytes": 2230,
+    "keywords": 2,
+    "status": "success"
+  },
+  {
+    "file": "examples/5_styling/styling.py",
+    "docs_created": 2,
+    "bytes": 8327,
+    "keywords": 19,
+    "status": "success"
+  },
+  {
+    "file": "examples/4_line_indicators/line_indicators.py",
+    "docs_created": 2,
+    "bytes": 4356,
+    "keywords": 7,
+    "status": "success"
+  },
+  {
+    "file": "test/drawings.json",
+    "docs_created": 2,
+    "bytes": 3125,
+    "keywords": 3,
+    "status": "success"
+  },
+  {
+    "file": "test/test_chart.py",
+    "docs_created": 2,
+    "bytes": 5580,
+    "keywords": 9,
+    "status": "success"
+  },
+  {
+    "file": "test/util.py",
+    "docs_created": 2,
+    "bytes": 3355,
+    "keywords": 5,
+    "status": "success"
+  },
+  {
+    "file": "test/run_tests.py",
+    "docs_created": 2,
+    "bytes": 6242,
+    "keywords": 14,
+    "status": "success"
+  },
+  {
+    "file": "test/test_table.py",
+    "docs_created": 2,
+    "bytes": 2537,
+    "keywords": 3,
+    "status": "success"
+  },
+  {
+    "file": "test/test_returns.py",
+    "docs_created": 2,
+    "bytes": 7396,
+    "keywords": 13,
+    "status": "success"
+  },
+  {
+    "file": "test/test_toolbox.py",
+    "docs_created": 2,
+    "bytes": 7154,
+    "keywords": 12,
+    "status": "success"
+  },
+  {
+    "file": "test/test_topbar.py",
+    "docs_created": 2,
+    "bytes": 4340,
+    "keywords": 5,
+    "status": "success"
+  },
+  {
+    "file": ".github/FUNDING.yml",
+    "docs_created": 2,
+    "bytes": 1262,
+    "keywords": 0,
+    "status": "success"
+  },
+  {
+    "file": ".github/ISSUE_TEMPLATE/enhancement.yaml",
+    "docs_created": 2,
+    "bytes": 2731,
+    "keywords": 1,
+    "status": "success"
+  },
+  {
+    "file": ".github/ISSUE_TEMPLATE/bug.yaml",
+    "docs_created": 2,
+    "bytes": 4453,
+    "keywords": 5,
+    "status": "success"
+  },
+  {
+    "file": ".github/ISSUE_TEMPLATE/question.yaml",
+    "docs_created": 2,
+    "bytes": 2184,
+    "keywords": 1,
+    "status": "success"
+  },
+  {
+    "file": "src/vite.config.js",
+    "docs_created": 2,
+    "bytes": 1464,
+    "keywords": 0,
+    "status": "success"
+  },
+  {
+    "file": "src/sample-data.ts",
+    "docs_created": 2,
+    "bytes": 5037,
+    "keywords": 6,
+    "status": "success"
+  },
+  {
+    "file": "src/vite-env.d.ts",
+    "docs_created": 2,
+    "bytes": 1315,
+    "keywords": 0,
+    "status": "success"
+  },
+  {
+    "file": "src/index.ts",
+    "docs_created": 2,
+    "bytes": 1489,
+    "keywords": 0,
+    "status": "success"
+  },
+  {
+    "file": "src/plugin-base.ts",
+    "docs_created": 2,
+    "bytes": 4092,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": "src/horizontal-line/axis-view.ts",
+    "docs_created": 2,
+    "bytes": 3602,
+    "keywords": 3,
+    "status": "success"
+  },
+  {
+    "file": "src/horizontal-line/ray-line.ts",
+    "docs_created": 2,
+    "bytes": 4416,
+    "keywords": 6,
+    "status": "success"
+  },
+  {
+    "file": "src/horizontal-line/pane-renderer.ts",
+    "docs_created": 2,
+    "bytes": 4079,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": "src/horizontal-line/pane-view.ts",
+    "docs_created": 2,
+    "bytes": 4367,
+    "keywords": 6,
+    "status": "success"
+  },
+  {
+    "file": "src/horizontal-line/horizontal-line.ts",
+    "docs_created": 2,
+    "bytes": 8595,
+    "keywords": 11,
+    "status": "success"
+  },
+  {
+    "file": "src/context-menu/style-picker.ts",
+    "docs_created": 2,
+    "bytes": 5209,
+    "keywords": 6,
+    "status": "success"
+  },
+  {
+    "file": "src/context-menu/color-picker.ts",
+    "docs_created": 2,
+    "bytes": 8144,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": "src/context-menu/context-menu.ts",
+    "docs_created": 2,
+    "bytes": 9768,
+    "keywords": 8,
+    "status": "success"
+  },
+  {
+    "file": "src/helpers/canvas-rendering.ts",
+    "docs_created": 2,
+    "bytes": 3359,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": "src/helpers/assertions.ts",
+    "docs_created": 2,
+    "bytes": 3193,
+    "keywords": 2,
+    "status": "success"
+  },
+  {
+    "file": "src/helpers/time.ts",
+    "docs_created": 2,
+    "bytes": 3917,
+    "keywords": 3,
+    "status": "success"
+  },
+  {
+    "file": "src/helpers/dimensions/positions.ts",
+    "docs_created": 2,
+    "bytes": 3974,
+    "keywords": 2,
+    "status": "success"
+  },
+  {
+    "file": "src/helpers/dimensions/crosshair-width.ts",
+    "docs_created": 2,
+    "bytes": 2079,
+    "keywords": 0,
+    "status": "success"
+  },
+  {
+    "file": "src/helpers/dimensions/full-width.ts",
+    "docs_created": 2,
+    "bytes": 2728,
+    "keywords": 1,
+    "status": "success"
+  },
+  {
+    "file": "src/helpers/dimensions/common.ts",
+    "docs_created": 2,
+    "bytes": 1784,
+    "keywords": 1,
+    "status": "success"
+  },
+  {
+    "file": "src/box/pane-renderer.ts",
+    "docs_created": 2,
+    "bytes": 4338,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": "src/box/pane-view.ts",
+    "docs_created": 2,
+    "bytes": 3090,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": "src/box/box.ts",
+    "docs_created": 2,
+    "bytes": 10554,
+    "keywords": 11,
+    "status": "success"
+  },
+  {
+    "file": "src/drawing/options.ts",
+    "docs_created": 2,
+    "bytes": 2112,
+    "keywords": 2,
+    "status": "success"
+  },
+  {
+    "file": "src/drawing/data-source.ts",
+    "docs_created": 2,
+    "bytes": 1821,
+    "keywords": 1,
+    "status": "success"
+  },
+  {
+    "file": "src/drawing/pane-renderer.ts",
+    "docs_created": 2,
+    "bytes": 5871,
+    "keywords": 5,
+    "status": "success"
+  },
+  {
+    "file": "src/drawing/two-point-drawing.ts",
+    "docs_created": 2,
+    "bytes": 3383,
+    "keywords": 3,
+    "status": "success"
+  },
+  {
+    "file": "src/drawing/pane-view.ts",
+    "docs_created": 2,
+    "bytes": 4778,
+    "keywords": 5,
+    "status": "success"
+  },
+  {
+    "file": "src/drawing/drawing.ts",
+    "docs_created": 2,
+    "bytes": 10855,
+    "keywords": 12,
+    "status": "success"
+  },
+  {
+    "file": "src/drawing/drawing-tool.ts",
+    "docs_created": 2,
+    "bytes": 6848,
+    "keywords": 5,
+    "status": "success"
+  },
+  {
+    "file": "src/vertical-line/axis-view.ts",
+    "docs_created": 2,
+    "bytes": 3149,
+    "keywords": 2,
+    "status": "success"
+  },
+  {
+    "file": "src/vertical-line/pane-renderer.ts",
+    "docs_created": 2,
+    "bytes": 3945,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": "src/vertical-line/pane-view.ts",
+    "docs_created": 2,
+    "bytes": 3934,
+    "keywords": 5,
+    "status": "success"
+  },
+  {
+    "file": "src/vertical-line/vertical-line.ts",
+    "docs_created": 2,
+    "bytes": 8819,
+    "keywords": 11,
+    "status": "success"
+  },
+  {
+    "file": "src/example/example.ts",
+    "docs_created": 2,
+    "bytes": 1584,
+    "keywords": 0,
+    "status": "success"
+  },
+  {
+    "file": "src/example/index.html",
+    "docs_created": 2,
+    "bytes": 2350,
+    "keywords": 2,
+    "status": "success"
+  },
+  {
+    "file": "src/trend-line/pane-renderer.ts",
+    "docs_created": 2,
+    "bytes": 4377,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": "src/trend-line/pane-view.ts",
+    "docs_created": 2,
+    "bytes": 3715,
+    "keywords": 5,
+    "status": "success"
+  },
+  {
+    "file": "src/trend-line/trend-line.ts",
+    "docs_created": 2,
+    "bytes": 8330,
+    "keywords": 9,
+    "status": "success"
+  },
+  {
+    "file": "src/general/styles.css",
+    "docs_created": 2,
+    "bytes": 6142,
+    "keywords": 1,
+    "status": "success"
+  },
+  {
+    "file": "src/general/legend.ts",
+    "docs_created": 2,
+    "bytes": 12975,
+    "keywords": 7,
+    "status": "success"
+  },
+  {
+    "file": "src/general/toolbox.ts",
+    "docs_created": 2,
+    "bytes": 15211,
+    "keywords": 19,
+    "status": "success"
+  },
+  {
+    "file": "src/general/handler.ts",
+    "docs_created": 2,
+    "bytes": 23854,
+    "keywords": 27,
+    "status": "success"
+  },
+  {
+    "file": "src/general/table.ts",
+    "docs_created": 2,
+    "bytes": 9887,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": "src/general/menu.ts",
+    "docs_created": 2,
+    "bytes": 3940,
+    "keywords": 2,
+    "status": "success"
+  },
+  {
+    "file": "src/general/global-params.ts",
+    "docs_created": 2,
+    "bytes": 6105,
+    "keywords": 9,
+    "status": "success"
+  },
+  {
+    "file": "src/general/topbar.ts",
+    "docs_created": 2,
+    "bytes": 9430,
+    "keywords": 4,
+    "status": "success"
+  },
+  {
+    "file": "src/general/index.ts",
+    "docs_created": 2,
+    "bytes": 1748,
+    "keywords": 1,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/__init__.py",
+    "docs_created": 2,
+    "bytes": 2351,
+    "keywords": 3,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/topbar.py",
+    "docs_created": 2,
+    "bytes": 13734,
+    "keywords": 18,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/widgets.py",
+    "docs_created": 2,
+    "bytes": 23863,
+    "keywords": 38,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/abstract.py",
+    "docs_created": 2,
+    "bytes": 92562,
+    "keywords": 156,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/util.py",
+    "docs_created": 2,
+    "bytes": 24301,
+    "keywords": 44,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/toolbox.py",
+    "docs_created": 2,
+    "bytes": 6142,
+    "keywords": 9,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/chart.py",
+    "docs_created": 2,
+    "bytes": 22177,
+    "keywords": 39,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/table.py",
+    "docs_created": 2,
+    "bytes": 14796,
+    "keywords": 23,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/drawings.py",
+    "docs_created": 2,
+    "bytes": 24166,
+    "keywords": 34,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/polygon.py",
+    "docs_created": 2,
+    "bytes": 41909,
+    "keywords": 64,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/js/styles.css",
+    "docs_created": 2,
+    "bytes": 6172,
+    "keywords": 1,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/js/index.html",
+    "docs_created": 2,
+    "bytes": 2751,
+    "keywords": 3,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/js/lightweight-charts.js",
+    "docs_created": 2,
+    "bytes": 259039,
+    "keywords": 284,
+    "status": "success"
+  },
+  {
+    "file": "lightweight_charts/js/bundle.js",
+    "docs_created": 2,
+    "bytes": 69979,
+    "keywords": 59,
+    "status": "success"
+  }
+]

@@ -1,0 +1,75 @@
+# common.ts
+
+**File Path:** `src/helpers/dimensions/common.ts`
+
+**File Size:** 188 bytes
+**Lines of Code:** 7
+**Language:** typescript
+
+---
+
+## File Metadata
+
+- **Relative Path:** `src/helpers/dimensions/common.ts`
+- **File Type:** .ts
+- **Size:** 188 bytes
+- **Total Lines:** 7
+- **Programming Language:** typescript
+
+## Quick Summary
+
+This file is part of the lightweight-charts-python repository.
+
+
+## Original Source Code
+
+```typescript
+
+export interface BitmapPositionLength {
+	/** coordinate for use with a bitmap rendering scope */
+	position: number;
+	/** length for use with a bitmap rendering scope */
+	length: number;
+}
+
+
+```
+
+## High-Level Overview
+
+## Detailed Walkthrough
+
+### Code Structure
+
+This file contains 7 lines of typescript.
+## Usage Examples
+
+To use this file in your project:
+
+```javascript
+import { ... } from './src/helpers/dimensions/common.ts';
+```
+
+## Performance & Security Notes
+
+### Performance
+
+- File size: 188 bytes
+- Complexity: 0 functions, 0 classes
+
+### Security
+
+- **Recommendation:** Review this file for potential security vulnerabilities
+- No obvious security concerns detected (basic scan)
+
+## Related Files
+
+*To be populated during folder indexing phase*
+
+## Testing
+
+Tests for this file may be located in the `test/` directory.
+
+---
+
+*Documentation generated on 2025-11-18T21:53:49.057760*

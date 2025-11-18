@@ -1,0 +1,874 @@
+{
+  "repo_source": "/home/user/lightweight-charts-python",
+  "repo_fingerprint": "e3632f18f6976642",
+  "commit_sha": "052d778beda66f569175cbe6774aba5d3e3b1dea",
+  "file_count": 115,
+  "docs_count": 283,
+  "bytes_written": 1263365,
+  "timestamp_start": "2025-11-18T21:51:29.656402",
+  "timestamp_end": "2025-11-18T21:58:40.270303",
+  "generator_version": "1.0.0",
+  "files_map": {
+    "README.md": {
+      "type": "text",
+      "size": 7626,
+      "extension": ".md"
+    },
+    "LICENSE": {
+      "type": "text",
+      "size": 1066,
+      "extension": ""
+    },
+    "package.json": {
+      "type": "text",
+      "size": 491,
+      "extension": ".json"
+    },
+    "package-lock.json": {
+      "type": "text",
+      "size": 17414,
+      "extension": ".json"
+    },
+    ".readthedocs.yaml": {
+      "type": "text",
+      "size": 171,
+      "extension": ".yaml"
+    },
+    "index.html": {
+      "type": "text",
+      "size": 164,
+      "extension": ".html"
+    },
+    "build.sh": {
+      "type": "text",
+      "size": 745,
+      "extension": ".sh"
+    },
+    "setup.py": {
+      "type": "text",
+      "size": 680,
+      "extension": ".py"
+    },
+    "repo_book_generator.py": {
+      "type": "text",
+      "size": 8396,
+      "extension": ".py"
+    },
+    ".gitignore": {
+      "type": "text",
+      "size": 158,
+      "extension": ""
+    },
+    "tsconfig.json": {
+      "type": "text",
+      "size": 506,
+      "extension": ".json"
+    },
+    "rollup.config.js": {
+      "type": "text",
+      "size": 417,
+      "extension": ".js"
+    },
+    "cover.png": {
+      "type": "binary",
+      "size": 222028,
+      "extension": ".png"
+    },
+    "examples/3_tick_data/ohlc.csv": {
+      "type": "binary",
+      "size": 29397,
+      "extension": ".csv"
+    },
+    "examples/3_tick_data/tick_data.py": {
+      "type": "text",
+      "size": 359,
+      "extension": ".py"
+    },
+    "examples/3_tick_data/ticks.csv": {
+      "type": "binary",
+      "size": 109544,
+      "extension": ".csv"
+    },
+    "examples/3_tick_data/tick_data.gif": {
+      "type": "binary",
+      "size": 357180,
+      "extension": ".gif"
+    },
+    "examples/6_callbacks/callbacks.py": {
+      "type": "text",
+      "size": 1329,
+      "extension": ".py"
+    },
+    "examples/6_callbacks/callbacks.gif": {
+      "type": "binary",
+      "size": 486841,
+      "extension": ".gif"
+    },
+    "examples/6_callbacks/bar_data/GOOGL_1min.csv": {
+      "type": "binary",
+      "size": 143015,
+      "extension": ".csv"
+    },
+    "examples/6_callbacks/bar_data/TSLA_30min.csv": {
+      "type": "binary",
+      "size": 169662,
+      "extension": ".csv"
+    },
+    "examples/6_callbacks/bar_data/AAPL_1min.csv": {
+      "type": "binary",
+      "size": 153199,
+      "extension": ".csv"
+    },
+    "examples/6_callbacks/bar_data/AAPL_5min.csv": {
+      "type": "binary",
+      "size": 124228,
+      "extension": ".csv"
+    },
+    "examples/6_callbacks/bar_data/AAPL_30min.csv": {
+      "type": "binary",
+      "size": 168965,
+      "extension": ".csv"
+    },
+    "examples/6_callbacks/bar_data/GOOGL_30min.csv": {
+      "type": "binary",
+      "size": 165013,
+      "extension": ".csv"
+    },
+    "examples/6_callbacks/bar_data/TSLA_1min.csv": {
+      "type": "binary",
+      "size": 145328,
+      "extension": ".csv"
+    },
+    "examples/6_callbacks/bar_data/TSLA_5min.csv": {
+      "type": "binary",
+      "size": 127012,
+      "extension": ".csv"
+    },
+    "examples/6_callbacks/bar_data/GOOGL_5min.csv": {
+      "type": "binary",
+      "size": 123916,
+      "extension": ".csv"
+    },
+    "examples/2_live_data/live_data.gif": {
+      "type": "binary",
+      "size": 5201715,
+      "extension": ".gif"
+    },
+    "examples/2_live_data/live_data.py": {
+      "type": "text",
+      "size": 517,
+      "extension": ".py"
+    },
+    "examples/2_live_data/next_ohlcv.csv": {
+      "type": "binary",
+      "size": 84876,
+      "extension": ".csv"
+    },
+    "examples/2_live_data/ohlcv.csv": {
+      "type": "binary",
+      "size": 80654,
+      "extension": ".csv"
+    },
+    "examples/1_setting_data/setting_data.png": {
+      "type": "binary",
+      "size": 568283,
+      "extension": ".png"
+    },
+    "examples/1_setting_data/setting_data.py": {
+      "type": "text",
+      "size": 243,
+      "extension": ".py"
+    },
+    "examples/1_setting_data/ohlcv.csv": {
+      "type": "binary",
+      "size": 166607,
+      "extension": ".csv"
+    },
+    "examples/5_styling/styling.py": {
+      "type": "text",
+      "size": 789,
+      "extension": ".py"
+    },
+    "examples/5_styling/ohlcv.csv": {
+      "type": "binary",
+      "size": 166607,
+      "extension": ".csv"
+    },
+    "examples/5_styling/styling.png": {
+      "type": "binary",
+      "size": 521901,
+      "extension": ".png"
+    },
+    "examples/4_line_indicators/ohlcv.csv": {
+      "type": "binary",
+      "size": 166607,
+      "extension": ".csv"
+    },
+    "examples/4_line_indicators/line_indicators.py": {
+      "type": "text",
+      "size": 505,
+      "extension": ".py"
+    },
+    "examples/4_line_indicators/line_indicators.png": {
+      "type": "binary",
+      "size": 626243,
+      "extension": ".png"
+    },
+    "test/drawings.json": {
+      "type": "text",
+      "size": 1057,
+      "extension": ".json"
+    },
+    "test/test_chart.py": {
+      "type": "text",
+      "size": 768,
+      "extension": ".py"
+    },
+    "test/util.py": {
+      "type": "text",
+      "size": 310,
+      "extension": ".py"
+    },
+    "test/run_tests.py": {
+      "type": "text",
+      "size": 519,
+      "extension": ".py"
+    },
+    "test/test_table.py": {
+      "type": "text",
+      "size": 168,
+      "extension": ".py"
+    },
+    "test/test_returns.py": {
+      "type": "text",
+      "size": 1311,
+      "extension": ".py"
+    },
+    "test/test_toolbox.py": {
+      "type": "text",
+      "size": 1258,
+      "extension": ".py"
+    },
+    "test/test_topbar.py": {
+      "type": "text",
+      "size": 822,
+      "extension": ".py"
+    },
+    ".github/FUNDING.yml": {
+      "type": "text",
+      "size": 68,
+      "extension": ".yml"
+    },
+    ".github/ISSUE_TEMPLATE/enhancement.yaml": {
+      "type": "text",
+      "size": 1136,
+      "extension": ".yaml"
+    },
+    ".github/ISSUE_TEMPLATE/bug.yaml": {
+      "type": "text",
+      "size": 1666,
+      "extension": ".yaml"
+    },
+    ".github/ISSUE_TEMPLATE/question.yaml": {
+      "type": "text",
+      "size": 605,
+      "extension": ".yaml"
+    },
+    "src/vite.config.js": {
+      "type": "text",
+      "size": 175,
+      "extension": ".js"
+    },
+    "src/sample-data.ts": {
+      "type": "text",
+      "size": 1342,
+      "extension": ".ts"
+    },
+    "src/vite-env.d.ts": {
+      "type": "text",
+      "size": 38,
+      "extension": ".ts"
+    },
+    "src/index.ts": {
+      "type": "text",
+      "size": 239,
+      "extension": ".ts"
+    },
+    "src/plugin-base.ts": {
+      "type": "text",
+      "size": 1429,
+      "extension": ".ts"
+    },
+    "src/horizontal-line/axis-view.ts": {
+      "type": "text",
+      "size": 1140,
+      "extension": ".ts"
+    },
+    "src/horizontal-line/ray-line.ts": {
+      "type": "text",
+      "size": 1158,
+      "extension": ".ts"
+    },
+    "src/horizontal-line/pane-renderer.ts": {
+      "type": "text",
+      "size": 1213,
+      "extension": ".ts"
+    },
+    "src/horizontal-line/pane-view.ts": {
+      "type": "text",
+      "size": 977,
+      "extension": ".ts"
+    },
+    "src/horizontal-line/horizontal-line.ts": {
+      "type": "text",
+      "size": 3330,
+      "extension": ".ts"
+    },
+    "src/context-menu/style-picker.ts": {
+      "type": "text",
+      "size": 1881,
+      "extension": ".ts"
+    },
+    "src/context-menu/color-picker.ts": {
+      "type": "text",
+      "size": 5372,
+      "extension": ".ts"
+    },
+    "src/context-menu/context-menu.ts": {
+      "type": "text",
+      "size": 5489,
+      "extension": ".ts"
+    },
+    "src/helpers/canvas-rendering.ts": {
+      "type": "text",
+      "size": 552,
+      "extension": ".ts"
+    },
+    "src/helpers/assertions.ts": {
+      "type": "text",
+      "size": 924,
+      "extension": ".ts"
+    },
+    "src/helpers/time.ts": {
+      "type": "text",
+      "size": 1226,
+      "extension": ".ts"
+    },
+    "src/helpers/dimensions/positions.ts": {
+      "type": "text",
+      "size": 1871,
+      "extension": ".ts"
+    },
+    "src/helpers/dimensions/crosshair-width.ts": {
+      "type": "text",
+      "size": 690,
+      "extension": ".ts"
+    },
+    "src/helpers/dimensions/full-width.ts": {
+      "type": "text",
+      "size": 1103,
+      "extension": ".ts"
+    },
+    "src/helpers/dimensions/common.ts": {
+      "type": "text",
+      "size": 188,
+      "extension": ".ts"
+    },
+    "src/box/pane-renderer.ts": {
+      "type": "text",
+      "size": 1612,
+      "extension": ".ts"
+    },
+    "src/box/pane-view.ts": {
+      "type": "text",
+      "size": 474,
+      "extension": ".ts"
+    },
+    "src/box/box.ts": {
+      "type": "text",
+      "size": 5494,
+      "extension": ".ts"
+    },
+    "src/drawing/options.ts": {
+      "type": "text",
+      "size": 277,
+      "extension": ".ts"
+    },
+    "src/drawing/data-source.ts": {
+      "type": "text",
+      "size": 225,
+      "extension": ".ts"
+    },
+    "src/drawing/pane-renderer.ts": {
+      "type": "text",
+      "size": 2571,
+      "extension": ".ts"
+    },
+    "src/drawing/two-point-drawing.ts": {
+      "type": "text",
+      "size": 904,
+      "extension": ".ts"
+    },
+    "src/drawing/pane-view.ts": {
+      "type": "text",
+      "size": 1559,
+      "extension": ".ts"
+    },
+    "src/drawing/drawing.ts": {
+      "type": "text",
+      "size": 5604,
+      "extension": ".ts"
+    },
+    "src/drawing/drawing-tool.ts": {
+      "type": "text",
+      "size": 3777,
+      "extension": ".ts"
+    },
+    "src/vertical-line/axis-view.ts": {
+      "type": "text",
+      "size": 1000,
+      "extension": ".ts"
+    },
+    "src/vertical-line/pane-renderer.ts": {
+      "type": "text",
+      "size": 1102,
+      "extension": ".ts"
+    },
+    "src/vertical-line/pane-view.ts": {
+      "type": "text",
+      "size": 901,
+      "extension": ".ts"
+    },
+    "src/vertical-line/vertical-line.ts": {
+      "type": "text",
+      "size": 3594,
+      "extension": ".ts"
+    },
+    "src/example/example.ts": {
+      "type": "text",
+      "size": 287,
+      "extension": ".ts"
+    },
+    "src/example/index.html": {
+      "type": "text",
+      "size": 650,
+      "extension": ".html"
+    },
+    "src/trend-line/pane-renderer.ts": {
+      "type": "text",
+      "size": 1591,
+      "extension": ".ts"
+    },
+    "src/trend-line/pane-view.ts": {
+      "type": "text",
+      "size": 619,
+      "extension": ".ts"
+    },
+    "src/trend-line/trend-line.ts": {
+      "type": "text",
+      "size": 3747,
+      "extension": ".ts"
+    },
+    "src/general/styles.css": {
+      "type": "text",
+      "size": 4587,
+      "extension": ".css"
+    },
+    "src/general/legend.ts": {
+      "type": "text",
+      "size": 9492,
+      "extension": ".ts"
+    },
+    "src/general/toolbox.ts": {
+      "type": "text",
+      "size": 7772,
+      "extension": ".ts"
+    },
+    "src/general/handler.ts": {
+      "type": "text",
+      "size": 12902,
+      "extension": ".ts"
+    },
+    "src/general/table.ts": {
+      "type": "text",
+      "size": 7279,
+      "extension": ".ts"
+    },
+    "src/general/menu.ts": {
+      "type": "text",
+      "size": 2005,
+      "extension": ".ts"
+    },
+    "src/general/global-params.ts": {
+      "type": "text",
+      "size": 1707,
+      "extension": ".ts"
+    },
+    "src/general/topbar.ts": {
+      "type": "text",
+      "size": 6466,
+      "extension": ".ts"
+    },
+    "src/general/index.ts": {
+      "type": "text",
+      "size": 249,
+      "extension": ".ts"
+    },
+    "lightweight_charts/__init__.py": {
+      "type": "text",
+      "size": 137,
+      "extension": ".py"
+    },
+    "lightweight_charts/topbar.py": {
+      "type": "text",
+      "size": 4660,
+      "extension": ".py"
+    },
+    "lightweight_charts/widgets.py": {
+      "type": "text",
+      "size": 7762,
+      "extension": ".py"
+    },
+    "lightweight_charts/abstract.py": {
+      "type": "text",
+      "size": 37707,
+      "extension": ".py"
+    },
+    "lightweight_charts/util.py": {
+      "type": "text",
+      "size": 6104,
+      "extension": ".py"
+    },
+    "lightweight_charts/toolbox.py": {
+      "type": "text",
+      "size": 1521,
+      "extension": ".py"
+    },
+    "lightweight_charts/chart.py": {
+      "type": "text",
+      "size": 7191,
+      "extension": ".py"
+    },
+    "lightweight_charts/table.py": {
+      "type": "text",
+      "size": 5151,
+      "extension": ".py"
+    },
+    "lightweight_charts/drawings.py": {
+      "type": "text",
+      "size": 8430,
+      "extension": ".py"
+    },
+    "lightweight_charts/polygon.py": {
+      "type": "text",
+      "size": 18532,
+      "extension": ".py"
+    },
+    "lightweight_charts/js/styles.css": {
+      "type": "text",
+      "size": 4587,
+      "extension": ".css"
+    },
+    "lightweight_charts/js/index.html": {
+      "type": "text",
+      "size": 637,
+      "extension": ".html"
+    },
+    "lightweight_charts/js/lightweight-charts.js": {
+      "type": "text",
+      "size": 160942,
+      "extension": ".js"
+    },
+    "lightweight_charts/js/bundle.js": {
+      "type": "text",
+      "size": 48653,
+      "extension": ".js"
+    }
+  },
+  "checksums": {
+    ".github/FUNDING_docs.md": "810f208e78f79a62d0eb093a36bf5d2f4d9e99a09f110f9f69b896527a22b210",
+    ".github/FUNDING_kw.md": "64ae278f5a1db45fbdb2ff9075bf7bdb738831952768b0ca70dbba3cc7b76db0",
+    ".github/ISSUE_TEMPLATE/bug_docs.md": "3b4d03813520fd4a0fbd4f0dfb5d35075ecf73475af9de3999d53a7714dc3c5f",
+    ".github/ISSUE_TEMPLATE/bug_kw.md": "e889c3e3566e409df5f010719fe7e59a388aaaf2d6d62391aee47b229dc3c8a3",
+    ".github/ISSUE_TEMPLATE/doc.md": "6ec1b3989bd30b5ae7a35a34d6b567b1913fddf557b9d10bd27fe9d2dfc4e513",
+    ".github/ISSUE_TEMPLATE/enhancement_docs.md": "1d65148680332f7ed1664b195a6002f5914c2178e000439d6af42ed77d088b5f",
+    ".github/ISSUE_TEMPLATE/enhancement_kw.md": "e02a95a404737af03841c18998727c9197a39f0df0150611a29927a124e6a5de",
+    ".github/ISSUE_TEMPLATE/index.md": "db6324246bd0b003640f5dde4d0113ccdcab5c8500523275e89b9c29de240d0f",
+    ".github/ISSUE_TEMPLATE/question_docs.md": "d44d01a5154f012daa5961112d3c27bae224332218a53721394a4e92935f8da4",
+    ".github/ISSUE_TEMPLATE/question_kw.md": "15d05491f52f15320c2cb4ab90624c4f2c8b1f8cd19b0fead9bb5943f1555471",
+    ".github/ISSUE_TEMPLATE/sub.md": "eb1463574a957c45f9fe2c1a4b135a7f8602bfdca43605f7d253f6aac157636f",
+    ".github/doc.md": "7c71a627fba7d195ded9b3e98b22c54a33225011a77955fca61e72a28f5af0ae",
+    ".github/index.md": "1193f0db475b949ea0b92db2e131d90918c3025b50a77a45c4742b9820ba9a51",
+    ".github/sub.md": "7d60e480c94e1135fff76d4fbe81fa067638adf3d2e3332878e40edff02a2abd",
+    ".gitignore_docs.md": "426e4d431d0234af047b7fbaed52e6fd8c331b9748b0ca16e937659db986f40d",
+    ".gitignore_kw.md": "2f5e51486d26b8d797d739a08e61ab88882662df2439ef535fd7efa0874cee5c",
+    ".readthedocs_docs.md": "aba67c29b7fb67b307ad1fc73cbdf169d2f2c97e73a57136da62d6073bb5a219",
+    ".readthedocs_kw.md": "e69f9a6098d59108121c1b470b0d0483565cecbe7aa782178c9c618d6b7ffe7f",
+    "LICENSE_docs.md": "4fa34561964a3fa7ed605557d275cb45ec7d568cbc4619a50439a346bce817a8",
+    "LICENSE_kw.md": "f70efb9b2cc88eff10eddaaed0efb032b36495656fc975a94ea7f6035adf7aff",
+    "README_docs.md": "3e342172c235e4213b44a5988a2942131a9a3ddd7681d65b8550655a3380af4c",
+    "README_kw.md": "8029cd81cf185abf229e4b1e5eb057007f1d8a794da05d0a94393e7bc7e88f33",
+    "build_docs.md": "93a7e7e7a66d39ee24d493032a02adceebb6044758c76c7af284ade85a64f65a",
+    "build_kw.md": "0d4470bc7c8e42e06c632a23775b356dee56703ec0ec1b3f32310358573b2b0c",
+    "comprehensive_book.md": "c9d414323007af1d0782d4aaa05b02e5733a8a9806fc89780c123daf93db8185",
+    "doc.md": "2bee3fe1eef41500c6144b9d5345f26ea6a6611f95e732af7666d83d15af64b1",
+    "examples/1_setting_data/doc.md": "d5abb126e9b57268e99d923e6b8f959a89ba327bef16f5681fccacc799485d66",
+    "examples/1_setting_data/index.md": "ec390ee1747afe325ec8dfa58fb049b07e8045c0d5b32f9545fe539ec7043315",
+    "examples/1_setting_data/setting_data_docs.md": "3faa7c0a99b5bae0535fcdad83482c1225ebf4b1731fbc6a77b5486f65a87508",
+    "examples/1_setting_data/setting_data_kw.md": "4ed65c78ec7a2a76c1c405f7acedc83f2f61b042196d10d36b00ff737f483092",
+    "examples/1_setting_data/sub.md": "38848ae16deb4aaefa2d346e8da400f6227c5b0477c77bb7b1b3d9cfb27e5fac",
+    "examples/2_live_data/doc.md": "e31728f5f05ed3c375337aa0c576366913dcec56724da2fd1f2a71f0cc50b801",
+    "examples/2_live_data/index.md": "e3d98d1e93b770683d8a30593fd5145622fbc5228f2b12a5d007b605d22118b5",
+    "examples/2_live_data/live_data_docs.md": "334def37922be8903d4012c40d7010ee24dcd9047746d752de20131be15df126",
+    "examples/2_live_data/live_data_kw.md": "418c0d3cefc07ac0c6331eca4a84e5d77b1d6a3f29096a6f0d8d87d98c3840a1",
+    "examples/2_live_data/sub.md": "afe11429f914600a40995e687257f916b9419a8d5ee7e7dbab40913ba1c27539",
+    "examples/3_tick_data/doc.md": "dd8357e60cbe1a2cf28cb6729a23f4c71ef53a0a9bf857f246e383207281189b",
+    "examples/3_tick_data/index.md": "1ddee05bbcfa9578c9f61a3f921ec4409921c26c81e831591e997e6ad7e5ec27",
+    "examples/3_tick_data/sub.md": "2450f1808e136694bc4a1bd93933a06fe6eb4ce27a7a3d84251076b854bc4111",
+    "examples/3_tick_data/tick_data_docs.md": "ab55e3d254728d89fa81a9a9bf39ddd01176605905ee91afb928933f0d08e878",
+    "examples/3_tick_data/tick_data_kw.md": "eb01f606b0817158f19f9bd7eda026eb79c5c37e8dcf1750072db2368d1a1f06",
+    "examples/4_line_indicators/doc.md": "0d913be1d4148b76c19da1ec7ba22d655f8041b0dd69b59be435c02ae72fc083",
+    "examples/4_line_indicators/index.md": "74f286b2ea4975232281112c819683f43c29c9b10075d0547769ad00667f86ad",
+    "examples/4_line_indicators/line_indicators_docs.md": "33352c23ad050698a6d5b075bf4b03d43a1c74217a40a11cd46c678c847e0033",
+    "examples/4_line_indicators/line_indicators_kw.md": "c4b5d21d94e7561cf0c266325ba603270bc59e06256abb8a37a70780d3b8199f",
+    "examples/4_line_indicators/sub.md": "bec6ff04de2d789750c627820dc596c802b2112fa5273e69da78dc5b31ebce7a",
+    "examples/5_styling/doc.md": "75c67fcf8d53e1b3244b27da15ec3cea79008f72cbeb4d994ea663b0093b9fc2",
+    "examples/5_styling/index.md": "40e9dbe0c2938a99b55d643d888979f65a10aa77c0683ca852102942b6ec7d21",
+    "examples/5_styling/styling_docs.md": "e22101f4be3ce1cad61010aba8781504f0ae9615f9bcb83bb26ad917c2690911",
+    "examples/5_styling/styling_kw.md": "51b0ab5f3329b1be166134eb02a43e4fd28f984697f3d6a16ac009063511ec50",
+    "examples/5_styling/sub.md": "a8d87bda6d54a368b3703fc0c501f1b79b5241e0ce14ff11c4977fd362b6d1b6",
+    "examples/6_callbacks/callbacks_docs.md": "cfe1cacf475f4236cef99671da0d0893397644c2f4741945a4deca246f7be019",
+    "examples/6_callbacks/callbacks_kw.md": "ee48422aa807dcf1580cd39db8a3637453873e87b8a86c1692b7c5d049bf727e",
+    "examples/6_callbacks/doc.md": "0f9062a13544371eb35a40c53f57f2a31843f66c104b9e2dfe019a7f8b0fb5ab",
+    "examples/6_callbacks/index.md": "07091e60eb65e7fde930f9ab25559e161ac6e7416916343dbcc0a683099b0433",
+    "examples/6_callbacks/sub.md": "755f14a5bdec39b5cd7a0ea262f34038528a24167416378cfeefcab5169ed46a",
+    "examples/doc.md": "c81c414db750102408eeff5422d40b60cb3876c5ce4ade32616bc1f33c4caf16",
+    "examples/index.md": "9ba3e8ffbc7fbca91bccf3a5a8acb52d1d1a34ad270a3c9ead0696ff4dc63a7e",
+    "examples/sub.md": "229dee57b8201aa4ded0b01d9332e886649210844b3aefeb8c5b790131cb48c7",
+    "index.md": "7e8d5c7e81aa7838e63ecbe80874898b44f6ea4295e2847a6d1eb6c180cb182d",
+    "index_docs.md": "1e13b97e4f46561b943d7705eacd2e2b3962498f270f23e714ad7dbe2803682b",
+    "index_folder.md": "eabc1c3b9d826faec6985e6c07914aa92553bb713968a9863e5ab46ab0a8914d",
+    "index_kw.md": "2aea420f1e239011f06ba8076526e26a21923345fea3f47bb101966d37d14ca4",
+    "keywords.md": "a1c37fa349e0e905d3317e18ac0dd1d50002a377b50b386099fc20c49176c137",
+    "lightweight_charts/__init___docs.md": "9d51a201e6f5642ec8ebfcf297a843640de2b66d6c3c91e289739ece1be27882",
+    "lightweight_charts/__init___kw.md": "bebd5c17df5494eb8359947802c0c6e73d24c96ef3edaacbde04ba24744610ed",
+    "lightweight_charts/abstract_docs.md": "71796aea4a4870c36be9c385689b1f377133275562acae57482557dc32dae477",
+    "lightweight_charts/abstract_kw.md": "56bf44ef315fd210d71323bd4e1db0e0f93831e315d9cca21d11708b2d8aae54",
+    "lightweight_charts/chart_docs.md": "ad74006dbfbab0185abeddbedc377d8f41abb8b2030283ad6de7082fd73605ef",
+    "lightweight_charts/chart_kw.md": "1348f36a45408a949c7c73ed53af13b1a208aaaec5c261c05f23145a7d219a74",
+    "lightweight_charts/doc.md": "a087efd51dfcab821c8b83b650661f7d6c13babf22a6b3ce567d542d3e22e424",
+    "lightweight_charts/drawings_docs.md": "9e01eaac0e29918e255ecadd93f5928584559aa1be5090321f123e3d95fa5e3b",
+    "lightweight_charts/drawings_kw.md": "97e40223331759bb48beb0174bb909b84398235e2d4741657bfa0e44047f5366",
+    "lightweight_charts/index.md": "50877a3ff1392291bf1fd530c91ab4870e4954cae9ef0208518d714dfc19b716",
+    "lightweight_charts/js/bundle_docs.md": "0dae80caddcb19cf598cce291b56e6e1567e3cb3eb693eddc378271a61faa571",
+    "lightweight_charts/js/bundle_kw.md": "2b18b687eb2180ee2fbf002518ff03aa018f6df8da5c840df9029fa651954f54",
+    "lightweight_charts/js/doc.md": "baee47ca44e3dbdf5f06b1895178a141b27f6f25fc85d78b20677f72ba7e396a",
+    "lightweight_charts/js/index.md": "5e1c31c3f03974046e5768703dad6fea9a9003d32d8738546fefbf28ff3c059b",
+    "lightweight_charts/js/index_docs.md": "a47408d82be5dafaa1d7ad65927f04e8d1af8c0673dc811975a41e8e6afb5ba7",
+    "lightweight_charts/js/index_kw.md": "f1feee55f214aa3756d1907e7a8f5b83207c2bc8edcc769288252223dfedfa71",
+    "lightweight_charts/js/lightweight-charts_docs.md": "6b03b7dfdf78dfd9126eee79fe5eb20db9e14f37768c8fc20312d725853bdd3a",
+    "lightweight_charts/js/lightweight-charts_kw.md": "af193ee5f3461a27e09a85e9cbb7f498bbaa1ab456bfc2b8c4a66ae134958c71",
+    "lightweight_charts/js/styles_docs.md": "f70855071c5870ef11d44893f7e4b0cb3cd704de0ae7e8906219b8198044142e",
+    "lightweight_charts/js/styles_kw.md": "49c004fa00f65715b0df338ad6f2c4488c9c61ff695a97daee054616441e858f",
+    "lightweight_charts/js/sub.md": "e60fecb36002b9b48bffbd0714687fafc04cae99328bd6290485a2295b22cad7",
+    "lightweight_charts/polygon_docs.md": "45f2b4983a6e340c251b334580bfd48583bb87b1e02055c936b3a6c3f7539600",
+    "lightweight_charts/polygon_kw.md": "ca0975d78f84d5915fac59d057495ed13d9264482a603ea9be091069d1fa2972",
+    "lightweight_charts/sub.md": "5d81d936783ba2660833056bf685c3618c96e79cbb2aa7422425c12da1fc650a",
+    "lightweight_charts/table_docs.md": "4aaccbdc7eca124b1f4fcdb91ec7005e80503b68d3d882de4b5422aa3490cf9c",
+    "lightweight_charts/table_kw.md": "8f64d553fc0d4b012e02d3f2d7aafcbfab020a9ac6848b52452198dc7a546eef",
+    "lightweight_charts/toolbox_docs.md": "9ff4512627c8504483a68beb67ac3989ec0973c3e81f8c99abfeb98436364b57",
+    "lightweight_charts/toolbox_kw.md": "60de087eb9d15d0ef366f1332e9abd0482f6e9596f6a31e63240a1c3b666fce4",
+    "lightweight_charts/topbar_docs.md": "d6ae047dbc30992941956c92650a159e60d65d30683c26fb2e29b487459d27fa",
+    "lightweight_charts/topbar_kw.md": "7bbd1461c36f917d2261ef4314d8a0f366cd6c2f4eb96d8fe92f7f87879d2a9a",
+    "lightweight_charts/util_docs.md": "0a422f5fa74701d625565e05c5ca9c2ec1d7ae9cec20546bcff2ed8148dc7521",
+    "lightweight_charts/util_kw.md": "573e8f786ba9b0d5f4d2a2c416c2e504772116af9249213b1cde127c0709439a",
+    "lightweight_charts/widgets_docs.md": "3ec6fdea6b8612e8e624d18472b79a19c50c0e895a26b7e06eaaddba276bc48e",
+    "lightweight_charts/widgets_kw.md": "8efef2ce0bbd88bb9ff370f9439a435f1869890a4ab18269e19851aee251bb4d",
+    "package-lock_docs.md": "db4058f0dbb4e067d54814a5aecbd534263c980e28654b97e5bb9f97d8960cce",
+    "package-lock_kw.md": "6ce054d2c2402bb4fa8301272fc9618bf138fd39c80fd442309f3567f926c8ab",
+    "package_docs.md": "ba3b0edafc67f92c3585d6e7dd49bc8d632e500a56ce22eb130f4812ddc7f9ec",
+    "package_kw.md": "5aaab34fc60476dae688afc542bb3e35b1ceea34cb788f2dd7a434bdc40740c1",
+    "repo_book_generator_docs.md": "61d42fb1b63402445cf5b9a8849f9d58a889096abbc7f6e325f9a58e6c2a2f04",
+    "repo_book_generator_kw.md": "b2862ccc4c80804b1ad20636458ff868721cc8d4d82b4a40eabcc56586f1829f",
+    "rollup.config_docs.md": "cc237f1e9de9ab7949f4d02014000c0b774772dba252473e69dbdd6ee70c1360",
+    "rollup.config_kw.md": "fbbd0181e8f3ab03c33ed2ebfe74d8b4ac67582146ed5dc797364d0e40fc8dc4",
+    "setup_docs.md": "9d3f259c3f20b83fd0810a48ba65d050dae51dfe2fa34031901b7692172a2f39",
+    "setup_kw.md": "c7b8e9dc868d84766246cc2ebdbd7b601478931c2f594681509454ea466d8dc5",
+    "source/examples/events.md": "6dc371b4e530289dad126b6a2fe65969a6ac6c804efbcd7c944a1f425ce2bf7e",
+    "source/examples/gui_examples.md": "b1a45623b979c8da75929d9e491f000fd7435a4a207cff926d15aed89c4fa397",
+    "source/examples/screenshot.md": "9456f7073979b14bf10366eb5f6111a69b837ee33048ab20cdab8d76f123c63d",
+    "source/examples/subchart.md": "6741b74d18e6bbec6fd353927f651b7ee91d06da44d19840ef192f33295c7299",
+    "source/examples/table.md": "8bbe47a243f6f717e8c97b7c32fda9b200456069cf8b8f003d611e8eb8e85f36",
+    "source/examples/toolbox.md": "ac53014d3132d90b606a61604bdaaeb0bf036e710976d6e8da119753ae67f06f",
+    "source/examples/yfinance.md": "4e2b1d2b95c4dfee5892d923c5aedbb981449ecb4a7d0ba67a02de8de8053899",
+    "source/index.md": "ccbecae65ca01888e7f2ee5f26d80a5f866ef92a60771be974f14f6bfd70f09e",
+    "source/polygon.md": "cd8480ef0c637698e66e1490b80a7b25712f1c9e40a90039c0592e54ad31bc4b",
+    "source/reference/abstract_chart.md": "e8e58ebf51c3484ed076b2a363917e21bd697f197b8085883267fb992b63fe2d",
+    "source/reference/charts.md": "8cf2cb65cbb78edb5bc2e218871c4bc449b00fa07969beb626833cc7f06fd804",
+    "source/reference/events.md": "eace65e4606fc334bd89748fa80626b39d7fd0f1343e0f51488d30727ddc809e",
+    "source/reference/histogram.md": "b2651c9290a97dc36bef72fc46d5daf8fffe108440ee1a4a05e50547e55b7bf1",
+    "source/reference/horizontal_line.md": "15e4c2df6ca397604034414108b74789d68a94df3f595d7edad6cb96acec4692",
+    "source/reference/index.md": "ba51f90109e471fa080ddc88313a4a933e55e1b13d8ae94643fb8fd926096c78",
+    "source/reference/line.md": "6e651ef091c567a0352c0b98dd7ea1cfeb08f5d274635f93c7a387c4c76f4668",
+    "source/reference/tables.md": "4c2fd5667c780421f168fd48bfdb70eb69012b7ae16ed1a0539343464a836cc1",
+    "source/reference/toolbox.md": "f07216e7bd43b6282a81630607c5e49d2caf4607ed605e4d3dc879825f496320",
+    "source/reference/topbar.md": "477bd84fe0f5ab359b79f1c4ec85335d88ac7097b101ec4f0b0706fbc95ce156",
+    "source/reference/typing.md": "6cdd1e6b81714f001d3c159c1ec8bd3761ef26af8c3790b5bf68ddcab617e4bd",
+    "source/tutorials/events.md": "9eb736e65362df6bfe0dbadde808ee6cdd5fb7c1678bd9b9ef24c762ba7b7512",
+    "source/tutorials/getting_started.md": "b522cc842d653c514c353ccd042b16603667e4fda00ef846685c677cdb44ce40",
+    "src/box/box_docs.md": "1e3b8092f6df521b93df59c79deda3e497ab0f7f84575f7491b59c4589cdffe5",
+    "src/box/box_kw.md": "d903f2009c6827d104159048f472b2f424c28e2ba1fa6da33ab610fccc449b0d",
+    "src/box/doc.md": "c8cc8da08df0e8575961fe046ef1e556ec1170d57bce0192280e0e65ee8fb0e6",
+    "src/box/index.md": "0991214655389667be4563801d2d51799b26312f8bb078b17cf21974085992e4",
+    "src/box/pane-renderer_docs.md": "ac6f50c7069e6e4885e6b834ca7bc2824f992120da0bda9c5c2384ef13100549",
+    "src/box/pane-renderer_kw.md": "3b959fb113aa0fc3704b5db7f02e6f684bfc6d3ad61145fddba3b1602b89cb11",
+    "src/box/pane-view_docs.md": "19784ce07da9e466fbeb9b1091c01a3ef017969f48500fda436c56e7dbf7f65d",
+    "src/box/pane-view_kw.md": "e6d2e81a47ad9db7c9b55d246b6c2003bff278b3374447dbfe45599750f73d1f",
+    "src/box/sub.md": "71967e81a2da36def59bfc030531530a81550c0312f23a8b7263d8cbf3b15392",
+    "src/context-menu/color-picker_docs.md": "349b97c05bc09a80a0c5f9e7e17f619a09f72bed879eac536d9f16b1eb901444",
+    "src/context-menu/color-picker_kw.md": "9a42a4aedad4eed4bd527fb2893681511b96e7c34961b964b515eea8aada6fe4",
+    "src/context-menu/context-menu_docs.md": "3b2a3ff91a03a5b0ebeadcafe6eaeab7e24e67de96b18788aa79204fb7cdc3b4",
+    "src/context-menu/context-menu_kw.md": "7de28bd55d4d9407340d02384872989775fa64feb1cebbe889779682bda4481e",
+    "src/context-menu/doc.md": "12070863d690cbe18661102ffd908a66479ce3aa3fc58889fa4bf312a7f4ed75",
+    "src/context-menu/index.md": "77ebdbafc99c765aea64291de003a59dc9d533cc7f617f68c33a51c3359de224",
+    "src/context-menu/style-picker_docs.md": "b7e44b1fd9aa91e79c04c64a7ebd0486ab9938ae647cd1f1b81933c2900bfe96",
+    "src/context-menu/style-picker_kw.md": "89cc342e8a8047fe5b394fd004a02b846afbb2b285686118e2725205fb9ea196",
+    "src/context-menu/sub.md": "1424079cc29a5cd5bacad99bceabf2c8a524032e7d904ba8c1401ba24a1adf7a",
+    "src/doc.md": "9cf40ad0643fe47634f5441cfdac01462a8d284274439c0aa0289b42f42e6f43",
+    "src/drawing/data-source_docs.md": "483ab7c82ddec7ae2e6cbe918d18bf7d7112d5a53af86a79001e0092da10ed58",
+    "src/drawing/data-source_kw.md": "75f1094b256d82590190820430ca85ece3ca80a811a05b402ed93a28f278a28c",
+    "src/drawing/doc.md": "b59b846dd27e0d59fa9f8c1df4261c046c20a6a985e92c205f2ca11cb2e32f91",
+    "src/drawing/drawing-tool_docs.md": "3aa55f2e1884a3d44a59cea6b8ed75cf157e8829b6e283cf30a13f7d306413c0",
+    "src/drawing/drawing-tool_kw.md": "aba92b2139c179242f4bbb676d5250776a12149a9e68b3901480bbd249eaa730",
+    "src/drawing/drawing_docs.md": "740b0cc7ffeba44d2858bf6ff3c829312134a6e7b60936a920306bae9fe95b32",
+    "src/drawing/drawing_kw.md": "4413ed14a7183f09c2112612c6edd84b31c7c510224b1306825c0a4f86e56955",
+    "src/drawing/index.md": "5c6f0797f1869a182f647dac63c58c9517f5181834b69c3bf6f1f317fd9834cb",
+    "src/drawing/options_docs.md": "26f5fdc8f19455810304ca1eff6d088049675444416514a7891e81666eb828cb",
+    "src/drawing/options_kw.md": "909ab2e65e9e3a4633140afbe3b2afde9829670398899bb4316c439adf68bcff",
+    "src/drawing/pane-renderer_docs.md": "56d89b9d3fab68da8cf84508b530ec29f0d58f8d69c2f9cee305771050507097",
+    "src/drawing/pane-renderer_kw.md": "b96114dbfa5e0f1d4f5a14945fe9e5933d4fb6c4901eb3a4bd935222f6c7b000",
+    "src/drawing/pane-view_docs.md": "93197d05a656bcfd44c93f05eccf61ddf2d064ea5d0c098ca1bbe557ca948920",
+    "src/drawing/pane-view_kw.md": "5de60b79821516826e0dfb85ee708f6c3b336b43c50c34cbf309da0984f01d64",
+    "src/drawing/sub.md": "94f94b9a522c03eee781ffa75cc93b3522618f8cc856f9b5e57a295cd0efab9b",
+    "src/drawing/two-point-drawing_docs.md": "63a6aef18a2feba3a3749f1a63e884d7a2cf57d026deb0ebdd36e64e959bab6d",
+    "src/drawing/two-point-drawing_kw.md": "94cc7e259626b430c51a48a8ffab2f7ed8b353f68df714a183cf9e9551769933",
+    "src/example/doc.md": "680e6796029ac432fc964d90f84cb83ff4bbb17fdfef6c30cdebb1526b37a1ab",
+    "src/example/example_docs.md": "4dcb963a821d15c49f61b2d63cac8fa573af3eea99afe34c03ff03f046ed249f",
+    "src/example/example_kw.md": "1eff41fa9ddae88474d6abedb04fdfe8854ab0bdc3bf2694475c634d8bf92df4",
+    "src/example/index.md": "ce917e6e9f19d3ed3a1507869620ba8933bc64214634f87575e2775c3d7189f8",
+    "src/example/index_docs.md": "495de664e615f5972b5bcbb3da936348408dccc8c441549483781a71f2c6b59f",
+    "src/example/index_kw.md": "059926a6fcfffd4c148e67b43c9c43bc91c8faa3dd4359468976a64178148d2d",
+    "src/example/sub.md": "5b9f30de71730e02d146f7c9fbadb0eaa046e198ac7364ebac9eb8876d738454",
+    "src/general/doc.md": "bc61c5eb05dc65603892acd128d071d2d304e564a035d9ff1e74ffc8f11ec7fa",
+    "src/general/global-params_docs.md": "1e105a3aae817182a7ea147508a84fc337ef637e190da13b7dd0b9810e753fc4",
+    "src/general/global-params_kw.md": "7a6a047314ae10ae3ee8076e9de1364e0c082b42453556d7217aaadcb88748a7",
+    "src/general/handler_docs.md": "9b0dc0445fc3951827ec5dd7815c0b3d780e8d9606149d7006c457efd8c3c847",
+    "src/general/handler_kw.md": "b113d32f36d2ba66dbf8de7c98bfc5b51fa71a6af950096e7e508141c0930a20",
+    "src/general/index.md": "98bdcf2c8fd95f8b53f8f753f0fcbf42e15d3f09e82cfcf72361eb782f8fe948",
+    "src/general/index_docs.md": "28935ec8fc72b56427c5f0313855d5156862d7372e789901d8dcae410640f1e9",
+    "src/general/index_kw.md": "4be955bd30d1268b8496817083aec2761a3713c1456a9ce80ea5d911e5af997f",
+    "src/general/legend_docs.md": "c8e3e80c060de9cf972ddc0d9bc42d11189ad4c93751230d6aface35335c2e23",
+    "src/general/legend_kw.md": "2c5c34268f752517be4e6d98a45ac3facacfa791cb8aca39843bb5846beadd0f",
+    "src/general/menu_docs.md": "3733e13af3f37a3b00fd6510dae1184f066f918fcfabc73b83b8d3175aeb2c58",
+    "src/general/menu_kw.md": "b910b7b673ec35dd9966b3d1a12b66972c16ebdaf9c207c24b3096ff54e375e2",
+    "src/general/styles_docs.md": "444fd0922032c7adb89415c13f8ebdb59a75bbc4e26e1f58d791acbb8a0b5f2b",
+    "src/general/styles_kw.md": "ef85c4abda174c1266e1ed91b409d2f65a4acb509fd60f0f9aaab416bfdf8542",
+    "src/general/sub.md": "8501922940b79d500c41068d49736287274aef43043ffc7feca01e585745eda5",
+    "src/general/table_docs.md": "71d0f97638480a4f1794cc888012bee8bb95bdbda714f57f7a7bfbe348f951f1",
+    "src/general/table_kw.md": "5b1b0945f0dbf9a591422586f80e39ac2db14558d4aa959ebca38dba736255f5",
+    "src/general/toolbox_docs.md": "456c569f0ad555ae14d31e24d1114d8a89fad405acbadb211f8011e4758d9dc4",
+    "src/general/toolbox_kw.md": "825b76aff1660083514872d3f6e83946d2d3568dbcfe3f5ccb6a1f4819947a98",
+    "src/general/topbar_docs.md": "961af8e3ed74a37db12a5790882a10bfc27af20ec5be03f63272667ad96a840b",
+    "src/general/topbar_kw.md": "7dd3af3b56892638fbb0c210111f5f7221b771055a477148e8e86d02da3ef6f9",
+    "src/helpers/assertions_docs.md": "1d93356629e7b076a724fd29c4cdaddb267dbe6fe53760cfaf9d08c193457cda",
+    "src/helpers/assertions_kw.md": "0ba7eae5e1770b0ddbc9311e621287af2a4156067d3619062dd22667f66e703c",
+    "src/helpers/canvas-rendering_docs.md": "0bb6c6247495c07baa8f9be35886e533cc76e78ba0bafb39a9488e732624e1c9",
+    "src/helpers/canvas-rendering_kw.md": "07e412a2aa4bd34a1588456f9988c477d6f06433ff20edc61718777b061cb7f7",
+    "src/helpers/dimensions/common_docs.md": "6c721c2d40e03e16f1c6c7133a4d5f5fea2afd42ab05e61c3a75e0322b16e50a",
+    "src/helpers/dimensions/common_kw.md": "62f9303a70f044aa86040c9f0068a5f131be227e979dedc048377569090e51c9",
+    "src/helpers/dimensions/crosshair-width_docs.md": "bd6cebd0a1ba969a1cde10ee5b46d0ef54bb944399e917d25b0f525e5574860b",
+    "src/helpers/dimensions/crosshair-width_kw.md": "bf5dcf69c2a018c37d827a84b6a54c184decc72b8f50effd3e8a9aa978dbb008",
+    "src/helpers/dimensions/doc.md": "5c4c427b39b7b1fdf380d15677ac1e7335786e88041ceb1be30c1e404f02c5be",
+    "src/helpers/dimensions/full-width_docs.md": "265cef05cc75b7567a13ce86de4b54988b36b8234577535c4219a1a5337a95f6",
+    "src/helpers/dimensions/full-width_kw.md": "20f5ea66fd8c7876d0216c7cb59f697c97148915fb6754ed58c1c15ea7e0fe71",
+    "src/helpers/dimensions/index.md": "be5144f95da29e82ae1d9f8936ffa6d51bf73e47d89d0e463ed6fa6d27e7ca63",
+    "src/helpers/dimensions/positions_docs.md": "8022222ebf1bf601517155d5e252949c437988ee9031e9a00d3300c130ed4ca5",
+    "src/helpers/dimensions/positions_kw.md": "e7433c8c0d7c421cb5a1b3d1e578e564a95b8e1ed413662b014842ec01990fd4",
+    "src/helpers/dimensions/sub.md": "d2b217f18d5b40a4c31f6a6ecc6c876c7162b672bbb62b6d7a6fd5b650a73274",
+    "src/helpers/doc.md": "90f1d103bbe5d43f62c09b33000b6ac6e01c9a0e8762b50da376e40e80ee8c67",
+    "src/helpers/index.md": "1e0267fa7b9f21ef7af4bb16fb9fa9fc4e610dfca576b9bb54bc8a0ef081814e",
+    "src/helpers/sub.md": "72e944d402620a8cd5ed84b966308300856696ef0df681292263adda7ef66977",
+    "src/helpers/time_docs.md": "14b5b6362cea15b01e5914eea9e4a1dc330bd59257a28f8b1166da4150767eea",
+    "src/helpers/time_kw.md": "10421fbcf6b7f5d8b08be4393ae55eaf849b1f3bf18dc61c848d4bdaac1f04b6",
+    "src/horizontal-line/axis-view_docs.md": "136a5c7eb687f9feea142082894b65fe57ad561595d7b70817ef516d98d54cf0",
+    "src/horizontal-line/axis-view_kw.md": "2291d938558c5f981b356c383bd91ab39bcab59c52284297b02e3898f54f0361",
+    "src/horizontal-line/doc.md": "ed93c87e9dd944ddef5b3d17c0eada7d56cebf377527d989ad62f8fccf4778f4",
+    "src/horizontal-line/horizontal-line_docs.md": "a4e7894bc912b2dd13bff4f024fa398ceda281f729219a69b5abbd43aa44ad05",
+    "src/horizontal-line/horizontal-line_kw.md": "6fadeeb4e125b4d765dd4549b3b0847415f4a3616cea3d68e6ade7fd179c30fc",
+    "src/horizontal-line/index.md": "234b1d5a78a5feb13d050d47944e484746d9a797b26d83db03a35836dcd49d42",
+    "src/horizontal-line/pane-renderer_docs.md": "b19adc3183391b268101a2436a8fa7fc9800a974edca118b0205ba35de45fa38",
+    "src/horizontal-line/pane-renderer_kw.md": "2042e18f1e2f272feee7d7cac65a9ec11e74889bc37ed162df88125fb963ee44",
+    "src/horizontal-line/pane-view_docs.md": "d076db994a23d378886861ce8e2bb3f23af83cbaa3a8006fc7a2c650d4a8f49d",
+    "src/horizontal-line/pane-view_kw.md": "9173959dcda00982ecee5a2ad7e0355adea79f871ec0337a8ab1dda731042dd7",
+    "src/horizontal-line/ray-line_docs.md": "aedbed8f10a8abde86cf30e2f6cc6e757a1b34fd27fbf82444a0c4d4c7306880",
+    "src/horizontal-line/ray-line_kw.md": "f92bab9a56477a4913e546208f7d8ba8fbeb82a9c5323394c3d1b7d5f57d3b0d",
+    "src/horizontal-line/sub.md": "dc286be1b6c6dde0282aaeefb2c8c8c239a40da7057baedf505ba9100b2fca48",
+    "src/index.md": "3eb2243827afa00ca7601017fe7f6e09136605149c77abf161fe42acd85ff9c0",
+    "src/index_docs.md": "2e74576d3b5ded2194dc79d6e2b3df413548f187d1318598b12a4b558c1d749b",
+    "src/index_kw.md": "d24052e0800c12e860f2cdc8c995a372bd0d4843f5a8236ff242bde001924665",
+    "src/plugin-base_docs.md": "e5d0ae9be9f4a9568c2b5aa70b5ccd705a68132d553801afdb1933b6f5d19758",
+    "src/plugin-base_kw.md": "5f90aba9673cd2c219af643fcb113147bef10df5045f6c3bcedf00544f10743f",
+    "src/sample-data_docs.md": "603a86e12ad958b1246d3afe24c00b793603050640b8169231e9fbb8bd778c9f",
+    "src/sample-data_kw.md": "5ba970641ff01969289e36070fe17d8812bf2c923ad58043055224e1f830ba5f",
+    "src/sub.md": "720c0a671149740879843cd7a20b9c28eeb3bcbb19152d6ffe640137929e3a8a",
+    "src/trend-line/doc.md": "3c37b011ebec6fa1d1e5b2ec13ed67d8a5a6913eb80c90384c58dfd31c972d1f",
+    "src/trend-line/index.md": "e7ade6a464ad1d988d3b3b43da5b968bc96dd862bf6d1e246d1f190775894c75",
+    "src/trend-line/pane-renderer_docs.md": "c51f297baa357e54d4fce00111a9a8eda969797c0f98737b22c01cce87ae16eb",
+    "src/trend-line/pane-renderer_kw.md": "b2952b9849d695d60da83cac718e4d94ec948bf2cda521f339dc3caca99db668",
+    "src/trend-line/pane-view_docs.md": "00bb49bdbd254e1715352f5c2485e96530fa85b9577567babe757b31c09cd381",
+    "src/trend-line/pane-view_kw.md": "e62de948042acfc55ade01a848caa3c2df5eea80ac56ba066acec9f6915473c9",
+    "src/trend-line/sub.md": "08948966322f3103273fea649f78b3752e0fb3ea3bbadd4bb859e3db2c8540a2",
+    "src/trend-line/trend-line_docs.md": "eb852a70aca26205c3f54bc5ca75c3ada5e5970560154711ef4014023ac9569f",
+    "src/trend-line/trend-line_kw.md": "035ce3ccbf2324ff8ed7720bebab394b1e8e4168485d8cfda47e73f1b43761c1",
+    "src/vertical-line/axis-view_docs.md": "0d5f10a3c8b51df0c1499159c397f20c304224289898525f8bf0c2e7c2e5a3f1",
+    "src/vertical-line/axis-view_kw.md": "7b9bc5b8363a65a226714f5941692f793f24aba26850f199bd9a5ff567c4c07d",
+    "src/vertical-line/doc.md": "07208ca6bf4279352c71af9ff6833b4ac8cc378e61ba57e313b0f47a9f4478fe",
+    "src/vertical-line/index.md": "903923b183f43ebbeb269e1a84761c0e1821fa3005aeba086b8c9c36e0691398",
+    "src/vertical-line/pane-renderer_docs.md": "be7f1dc2dec669e2f7dcd6ac2dc732cdf8e17a30da4333c99425bd2f444bc261",
+    "src/vertical-line/pane-renderer_kw.md": "8fd78d3f997d295bd7904db835e9b012a5935ef080f4220c8899b32681a4f981",
+    "src/vertical-line/pane-view_docs.md": "2c447429d201729375ab83d7697023bbe42514b91df4c35531aaa20f2d4ab3f1",
+    "src/vertical-line/pane-view_kw.md": "8b0239f5d86f4f7916a0b6e98890f8c03cd956034b8d4aa73a7e7da61c55c809",
+    "src/vertical-line/sub.md": "f797d5ce39522070a82a3d7d30b1208acf44acad9867501ccd487f1eb00d9274",
+    "src/vertical-line/vertical-line_docs.md": "e6fcc918d821a93232d87d0d2f8ebbb883ea3819dd69d4651ef1dc7142fcec85",
+    "src/vertical-line/vertical-line_kw.md": "195436e799e1caa93ed17525f3513be29b5de6ceda1017e1338c0046784acc1c",
+    "src/vite-env.d_docs.md": "ec947dad38578fd9a33fde121d80e95b9a3087b902bbd20fccd418442c81f42b",
+    "src/vite-env.d_kw.md": "3c02764bbb50b29f9141bf277c5faf72783ef1535a667c84db2d4c5a17dcbb45",
+    "src/vite.config_docs.md": "842d8adb2431c3f6d37132137ec95dc317b53f94e14f81b70365c8b45fe0dfc0",
+    "src/vite.config_kw.md": "cf46da86a8af8d69310c54ac290a0eb9d4ae83f14db1afc0e6d0f9851ff59bbd",
+    "sub.md": "92b1029f38d0f531db92d74aed8cebedb2628bafde8acc98849c0dd8e77b7761",
+    "test/doc.md": "6df866fbc4c03b1493b5c2a2cb4d3ac035297a743e6e7282083b9aff88b39c0a",
+    "test/drawings_docs.md": "091d143677618e9422cf3bb53470b73b5b273d3a6ded098b1e2de55e33397f74",
+    "test/drawings_kw.md": "6a656cab9be2fe24052aea04ff54986e7bb40f20ee526cc27058bd58a1d8c21a",
+    "test/index.md": "524ac5c7e2350a65420bfe095bcdcfb13c018c9a1e5326f1051651882a6f5e20",
+    "test/run_tests_docs.md": "f923dd0518c0e83ed6b9602e4a51dcd1079d82516687bce5c9cd92d4426a1d55",
+    "test/run_tests_kw.md": "f30f1852a1178d8811bca8c0ead41278ac65e3a8a50ae29034c12ff988511ae9",
+    "test/sub.md": "f4a6df8235a90037777b1063ff164e48e4d08732821884f7bdf54865c49ed17a",
+    "test/test_chart_docs.md": "bb735b57f4e4096191ef727f4c7989166a821cc52e0bec2a63101f9340d13d3e",
+    "test/test_chart_kw.md": "6734cda649f1982cbdb443f382cf1be63cc196e5dd296424ac32fb7a6230816d",
+    "test/test_returns_docs.md": "e89d3eb66f6b1527a0ce685674c199962b308d4e92ea937bcc8aa3d6dbf2f30a",
+    "test/test_returns_kw.md": "1d0507edfd0db21e2d86bb53f2538176bb46379239ab4f135c3cd0abc97d63c5",
+    "test/test_table_docs.md": "4c33bbeacf507b1d3dbc6af39c7337782bf38fde0e94fd63355c786e333eb943",
+    "test/test_table_kw.md": "ec809191fbc5e5b476e27dcd36610d7f6326940cc35452f346236c6fe6b94c4f",
+    "test/test_toolbox_docs.md": "e6f95b46ea9a21dec572099a03d0a6df485009850bd1551f2798b4a4bb431dae",
+    "test/test_toolbox_kw.md": "e488fa4305b0a03e45dac7637a5fa780cf256a40a095778bed6835d3965a5c01",
+    "test/test_topbar_docs.md": "00b02095b32afdc92e9b9c237990729900271c73029ffb0a488e07c71245fd7f",
+    "test/test_topbar_kw.md": "2560ffabbec3e1fab1a85d92a52a22648f3949cd36c178c155d2d371ead3deac",
+    "test/util_docs.md": "253198c751ba3e71b36469b982d72d9f02c3f50ac31f4c4e1693acdf8eb0b725",
+    "test/util_kw.md": "bee42790e3168333253f45197a4dc0521da5dce0ab32c98474de5798aca38236",
+    "tsconfig_docs.md": "a5f34571f87e567d9de1af5eccd1a166fcb6232ce538136278c575ac9012840e",
+    "tsconfig_kw.md": "6ee7648bd1819a689c75891d2ef01bba3a139991d9074c35da8a322b03447111",
+    "verification_report.md": "9af7338b98ff67f160e46a5fa4b8c9a9f4fda211fb01ca757d7c18a18c31c6f5",
+    "README.md": "8f3c5b91ea3595c3f20f6da25caa657c941c2308e4ddee20354a5c5d0ddf7010"
+  },
+  "broken_links_count": 18
+}
